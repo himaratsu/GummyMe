@@ -65,7 +65,19 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         return 5
     }
     
-    // MARK: - UITableViewDelegate
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        performSegueWithIdentifier("showDetail", sender: service.gummys[indexPath.section])
+    }
+    
+ 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showDetail" {
+            let destVC = segue.destinationViewController as! DetailViewController
+            destVC.gummy = sender as? Gummy
+        }
+    }
     
     
 }

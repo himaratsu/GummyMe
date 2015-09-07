@@ -8,6 +8,11 @@
 
 import Foundation
 
-class Util {
-
+extension NSDate {
+    func toSimpleFormatString() -> String {
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.locale = NSLocale(localeIdentifier: "en_us_POSIX")
+        dateFormatter.dateFormat = "yyyy.MM.dd"
+        return dateFormatter.stringFromDate(self)
+    }
 }

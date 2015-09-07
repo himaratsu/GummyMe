@@ -40,6 +40,7 @@
 		D96A21A41B9DD55E002C09FD /* Gummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21A31B9DD55E002C09FD /* Gummy.swift */; };
 		D96A21AA1B9DDCE2002C09FD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21A91B9DDCE2002C09FD /* Social.framework */; };
 		D96A21AD1B9DE1CB002C09FD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21AC1B9DE1CB002C09FD /* Util.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A21AF1B9DE439002C09FD /* DetailNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21AE1B9DE439002C09FD /* DetailNoteCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		D96A21A51B9DDB80002C09FD /* GummyMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GummyMe-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		D96A21A91B9DDCE2002C09FD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		D96A21AC1B9DE1CB002C09FD /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		D96A21AE1B9DE439002C09FD /* DetailNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNoteCell.swift; sourceTree = "<group>"; };
 		DAB64660734F1FB71EA1DF68 /* Pods-GummyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummyMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-GummyMe/Pods-GummyMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,8 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				D95C1D991B9D5E7400B83DC9 /* HomeViewController.swift */,
-				D95C1DA61B9D742B00B83DC9 /* NewGummyViewController.swift */,
 				D95C1DB01B9D83F300B83DC9 /* DetailViewController.swift */,
+				D95C1DA61B9D742B00B83DC9 /* NewGummyViewController.swift */,
 				D95C1DB61B9D87EB00B83DC9 /* ProfileViewController.swift */,
 				D95C1DB91B9D8D3200B83DC9 /* GummySelectTableViewController.swift */,
 			);
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				D95C1DB41B9D85A500B83DC9 /* DetailImageCell.swift */,
+				D96A21AE1B9DE439002C09FD /* DetailNoteCell.swift */,
 			);
 			name = Detail;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 				D95C1DB71B9D87EB00B83DC9 /* ProfileViewController.swift in Sources */,
 				D95C1D881B9D5DDD00B83DC9 /* AppDelegate.swift in Sources */,
 				D95C1DA91B9D7A4A00B83DC9 /* ImageNoteCell.swift in Sources */,
+				D96A21AF1B9DE439002C09FD /* DetailNoteCell.swift in Sources */,
 				D95C1DAE1B9D804A00B83DC9 /* NewGummyInfo.swift in Sources */,
 				D95C1DB51B9D85A500B83DC9 /* DetailImageCell.swift in Sources */,
 				D95C1DA71B9D742B00B83DC9 /* NewGummyViewController.swift in Sources */,

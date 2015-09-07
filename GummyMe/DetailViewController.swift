@@ -11,6 +11,7 @@ import UIKit
 class DetailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak private var tableView: UITableView!
+    var gummy: Gummy?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,9 +27,13 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         switch indexPath.row {
         case 0:
-            return tableView.dequeueReusableCellWithIdentifier("DetailImageCell") as! DetailImageCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("DetailImageCell") as! DetailImageCell
+//            cell.configure(gummy)
+            return cell
         case 1:
-            return tableView.dequeueReusableCellWithIdentifier("NoteCell")!
+            let cell = tableView.dequeueReusableCellWithIdentifier("NoteCell") as! DetailNoteCell
+            cell.configure(gummy)
+            return cell
         default:
             fatalError()
         }
@@ -37,7 +42,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         switch indexPath.row {
         case 0:
-            return 266
+            return 260
         case 1:
             return 88
         default:

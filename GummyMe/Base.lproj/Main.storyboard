@@ -117,7 +117,6 @@
                                             <outlet property="gummyTitleLabel" destination="Uwb-rs-5Rc" id="Rhl-8e-eL9"/>
                                             <outlet property="profileImageView" destination="Xfb-FT-QzG" id="dqf-y5-2gO"/>
                                             <outlet property="userNameLabel" destination="EiK-cE-KKb" id="FNX-mY-1CU"/>
-                                            <segue destination="Kof-OR-fqw" kind="show" id="RoU-FW-h5X"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -138,6 +137,7 @@
                     <navigationItem key="navigationItem" title="Timeline" id="eip-Gx-JhM"/>
                     <connections>
                         <outlet property="tableView" destination="esx-24-RN3" id="hSW-b3-YiI"/>
+                        <segue destination="Kof-OR-fqw" kind="show" identifier="showDetail" id="vmP-iK-wPd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -230,11 +230,14 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="dateLabel" destination="Bd2-8Y-2Jo" id="6Kw-Gg-bOg"/>
                                             <outlet property="footerView" destination="1w8-mv-886" id="Zow-nV-ZTW"/>
+                                            <outlet property="gummyImageView" destination="XoF-NC-H43" id="xUu-qp-xS2"/>
                                             <outlet property="profileImageView" destination="6iI-34-aJb" id="yqf-Yx-S0j"/>
+                                            <outlet property="userNameLabel" destination="KAa-rS-KKj" id="aIH-Sr-mCK"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoteCell" rowHeight="86" id="5Nt-bR-Nfq">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NoteCell" rowHeight="86" id="5Nt-bR-Nfq" customClass="DetailNoteCell" customModule="GummyMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="352" width="320" height="86"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5Nt-bR-Nfq" id="tsq-WY-Q2j">
@@ -255,6 +258,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="commentLabel" destination="LwG-VE-IzG" id="lcz-mg-YoL"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -277,7 +283,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C2N-1I-VPT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1593" y="-111"/>
+            <point key="canvasLocation" x="1584" y="-111"/>
         </scene>
         <!--Tab View Controller-->
         <scene sceneID="JR3-gp-FQ1">

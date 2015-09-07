@@ -33,11 +33,9 @@ class HomeGummyCell: UITableViewCell {
         
         gummyTitleLabel.text = gummy.type
         
-        let dateFormatter = NSDateFormatter()
-        dateFormatter.locale = NSLocale(localeIdentifier: "en_us_POSIX")
-        dateFormatter.dateFormat = "yyyy.MM.dd"
+        
         if let createdAt = gummy.createdAt {
-            dateLabel.text = dateFormatter.stringFromDate(createdAt)
+            dateLabel.text = createdAt.toSimpleFormatString()
         }
         
         commentLabel.text = gummy.note
