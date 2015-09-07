@@ -10,9 +10,9 @@ import UIKit
 
 class NewGummyInfo: NSObject {
 
-    var type: String = ""
+    var type: String?
     var image: UIImage? = nil
     var note: String = ""
-    var review: Double = -1
+    var review: Int = -1
     
 }

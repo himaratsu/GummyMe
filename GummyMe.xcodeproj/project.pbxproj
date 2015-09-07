@@ -40,6 +40,10 @@
 		D96A21951B9DAAB6002C09FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21941B9DAAB6002C09FD /* SystemConfiguration.framework */; };
 		D96A21971B9DAAC6002C09FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21961B9DAAC6002C09FD /* libz.tbd */; };
 		D96A21991B9DAACC002C09FD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21981B9DAACC002C09FD /* libsqlite3.tbd */; };
+		D96A219C1B9DAD29002C09FD /* GummyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A219B1B9DAD29002C09FD /* GummyService.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A219F1B9DAF1B002C09FD /* SelectTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A219E1B9DAF1B002C09FD /* SelectTypeCell.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A21A11B9DB131002C09FD /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21A01B9DB131002C09FD /* ReviewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A21A41B9DD55E002C09FD /* Gummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21A31B9DD55E002C09FD /* Gummy.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +82,10 @@
 		D96A21941B9DAAB6002C09FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D96A21961B9DAAC6002C09FD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		D96A21981B9DAACC002C09FD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D96A219B1B9DAD29002C09FD /* GummyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GummyService.swift; sourceTree = "<group>"; };
+		D96A219E1B9DAF1B002C09FD /* SelectTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTypeCell.swift; sourceTree = "<group>"; };
+		D96A21A01B9DB131002C09FD /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
+		D96A21A31B9DD55E002C09FD /* Gummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gummy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,16 +119,6 @@
 		D95C1D7B1B9D5DDD00B83DC9 = {
 			isa = PBXGroup;
 			children = (
-				D96A21981B9DAACC002C09FD /* libsqlite3.tbd */,
-				D96A21961B9DAAC6002C09FD /* libz.tbd */,
-				D96A21941B9DAAB6002C09FD /* SystemConfiguration.framework */,
-				D96A21921B9DAAAD002C09FD /* StoreKit.framework */,
-				D96A21901B9DAAA7002C09FD /* Security.framework */,
-				D96A218E1B9DAAA2002C09FD /* QuartzCore.framework */,
-				D96A218C1B9DAA9D002C09FD /* CoreLocation.framework */,
-				D96A218A1B9DAA98002C09FD /* CoreGraphics.framework */,
-				D96A21881B9DAA92002C09FD /* CFNetwork.framework */,
-				D96A21861B9DAA8E002C09FD /* AudioToolbox.framework */,
 				D95C1D861B9D5DDD00B83DC9 /* GummyMe */,
 				D95C1D851B9D5DDD00B83DC9 /* Products */,
 			);
@@ -156,6 +154,7 @@
 		D95C1D9F1B9D641C00B83DC9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D96A219D1B9DAF01002C09FD /* New */,
 				D95C1DB31B9D858F00B83DC9 /* Detail */,
 				D95C1DB21B9D858A00B83DC9 /* Home */,
 			);
@@ -165,7 +164,8 @@
 		D95C1DAC1B9D803C00B83DC9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D95C1DAD1B9D804A00B83DC9 /* NewGummyInfo.swift */,
+				D96A21A21B9DD54B002C09FD /* Entity */,
+				D96A219A1B9DAD15002C09FD /* Service */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -186,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				D95C1DA01B9D643A00B83DC9 /* HomeGummyCell.swift */,
-				D95C1DA81B9D7A4A00B83DC9 /* ImageNoteCell.swift */,
 			);
 			name = Home;
 			sourceTree = "<group>";
@@ -202,6 +201,16 @@
 		D96A21771B9DAA5B002C09FD /* Parse */ = {
 			isa = PBXGroup;
 			children = (
+				D96A21981B9DAACC002C09FD /* libsqlite3.tbd */,
+				D96A21961B9DAAC6002C09FD /* libz.tbd */,
+				D96A21941B9DAAB6002C09FD /* SystemConfiguration.framework */,
+				D96A21921B9DAAAD002C09FD /* StoreKit.framework */,
+				D96A21901B9DAAA7002C09FD /* Security.framework */,
+				D96A218E1B9DAAA2002C09FD /* QuartzCore.framework */,
+				D96A218C1B9DAA9D002C09FD /* CoreLocation.framework */,
+				D96A218A1B9DAA98002C09FD /* CoreGraphics.framework */,
+				D96A21881B9DAA92002C09FD /* CFNetwork.framework */,
+				D96A21861B9DAA8E002C09FD /* AudioToolbox.framework */,
 				D96A21781B9DAA68002C09FD /* Bolts.framework */,
 				D96A21791B9DAA68002C09FD /* Parse.framework */,
 				D96A217A1B9DAA68002C09FD /* ParseCrashReporting.framework */,
@@ -211,6 +220,33 @@
 				D96A217E1B9DAA68002C09FD /* ParseUI.framework */,
 			);
 			name = Parse;
+			sourceTree = "<group>";
+		};
+		D96A219A1B9DAD15002C09FD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D96A219B1B9DAD29002C09FD /* GummyService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		D96A219D1B9DAF01002C09FD /* New */ = {
+			isa = PBXGroup;
+			children = (
+				D95C1DA81B9D7A4A00B83DC9 /* ImageNoteCell.swift */,
+				D96A219E1B9DAF1B002C09FD /* SelectTypeCell.swift */,
+				D96A21A01B9DB131002C09FD /* ReviewCell.swift */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
+		D96A21A21B9DD54B002C09FD /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D95C1DAD1B9D804A00B83DC9 /* NewGummyInfo.swift */,
+				D96A21A31B9DD55E002C09FD /* Gummy.swift */,
+			);
+			name = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95C1DA51B9D68E800B83DC9 /* TabViewController.swift in Sources */,
+				D96A219C1B9DAD29002C09FD /* GummyService.swift in Sources */,
 				D95C1DA11B9D643A00B83DC9 /* HomeGummyCell.swift in Sources */,
+				D96A219F1B9DAF1B002C09FD /* SelectTypeCell.swift in Sources */,
 				D95C1DBA1B9D8D3200B83DC9 /* GummySelectTableViewController.swift in Sources */,
 				D95C1DB71B9D87EB00B83DC9 /* ProfileViewController.swift in Sources */,
 				D95C1D881B9D5DDD00B83DC9 /* AppDelegate.swift in Sources */,
@@ -296,6 +334,8 @@
 				D95C1DA71B9D742B00B83DC9 /* NewGummyViewController.swift in Sources */,
 				D95C1D9A1B9D5E7400B83DC9 /* HomeViewController.swift in Sources */,
 				D95C1DB11B9D83F300B83DC9 /* DetailViewController.swift in Sources */,
+				D96A21A11B9DB131002C09FD /* ReviewCell.swift in Sources */,
+				D96A21A41B9DD55E002C09FD /* Gummy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

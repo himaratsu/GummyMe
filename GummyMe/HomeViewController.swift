@@ -11,18 +11,28 @@ import UIKit
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak private var tableView: UITableView!
+    private var service = GummyService()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        reload()
     }
 
+    private func reload() {
+        service.requestGummy { [weak self] (gummys, error) -> Void in
+            if let error = error {
+                print("#### error ####")
+            } else {
+                self?.tableView.reloadData()
+            }
+        }
+    }
 
 
     // MARK: - UITableViewDataSource
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 10
+        return service.gummys.count
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

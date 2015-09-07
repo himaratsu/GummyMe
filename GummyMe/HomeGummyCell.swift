@@ -10,6 +10,11 @@ import UIKit
 
 class HomeGummyCell: UITableViewCell {
 
+    @IBOutlet weak var gummyImageView: UIImageView!
+    @IBOutlet weak var gummyTitleLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
+    @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak private var footerView: UIView!
     @IBOutlet weak private var profileImageView: UIImageView!
     
@@ -20,5 +25,11 @@ class HomeGummyCell: UITableViewCell {
         profileImageView.layer.cornerRadius = 20
         profileImageView.clipsToBounds = true
     }
+    
+    func configure(gummy: Gummy) {
+        
+    }
 
+    
+    
 }

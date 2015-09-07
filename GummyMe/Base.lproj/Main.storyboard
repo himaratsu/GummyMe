@@ -110,8 +110,13 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="commentLabel" destination="fzt-SH-crk" id="Khh-iQ-Uvj"/>
+                                            <outlet property="dateLabel" destination="gvL-yL-AMb" id="BvI-4f-uHX"/>
                                             <outlet property="footerView" destination="zFP-XV-Lza" id="f2y-kL-w1M"/>
+                                            <outlet property="gummyImageView" destination="zca-1T-uWm" id="e9m-Qa-hil"/>
+                                            <outlet property="gummyTitleLabel" destination="Uwb-rs-5Rc" id="Rhl-8e-eL9"/>
                                             <outlet property="profileImageView" destination="Xfb-FT-QzG" id="dqf-y5-2gO"/>
+                                            <outlet property="userNameLabel" destination="EiK-cE-KKb" id="FNX-mY-1CU"/>
                                             <segue destination="Kof-OR-fqw" kind="show" id="RoU-FW-h5X"/>
                                         </connections>
                                     </tableViewCell>
@@ -310,7 +315,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectCell" rowHeight="80" id="lxw-RL-yta">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SelectCell" rowHeight="80" id="lxw-RL-yta" customClass="SelectTypeCell" customModule="GummyMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="92" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lxw-RL-yta" id="3xd-B2-NfE">
@@ -332,7 +337,7 @@
                                                         </mask>
                                                     </variation>
                                                     <connections>
-                                                        <segue destination="U8X-oC-xTP" kind="show" id="SXz-qn-chH"/>
+                                                        <segue destination="U8X-oC-xTP" kind="show" identifier="showSelectType" id="SXz-qn-chH"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -349,6 +354,9 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="selectButton" destination="xA4-fJ-Hln" id="ov9-l6-ria"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImageNoteCell" rowHeight="120" id="nfr-dx-2up" customClass="ImageNoteCell" customModule="GummyMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="172" width="320" height="120"/>
@@ -391,7 +399,7 @@
                                             <outlet property="thumbImageView" destination="MN3-gK-e5o" id="YGo-qW-vCg"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReviewCell" rowHeight="60" id="Sz6-hX-bkF">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReviewCell" rowHeight="60" id="Sz6-hX-bkF" customClass="ReviewCell" customModule="GummyMe" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="292" width="320" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Sz6-hX-bkF" id="RVB-6a-6N2">
@@ -407,14 +415,31 @@
                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="1~5を入力" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N3K-Dd-3SM">
+                                                    <rect key="frame" x="206" y="10" width="97" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="97" id="Dzf-hz-77z"/>
+                                                        <constraint firstAttribute="height" constant="40" id="TPN-tm-7xk"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="Sz6-hX-bkF" id="CzO-Nn-RzI"/>
+                                                    </connections>
+                                                </textField>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="N3K-Dd-3SM" secondAttribute="trailing" constant="9" id="XXJ-sa-MUc"/>
+                                                <constraint firstItem="N3K-Dd-3SM" firstAttribute="centerY" secondItem="RVB-6a-6N2" secondAttribute="centerY" id="aEG-SP-XYW"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Ke4-Rj-12Q" secondAttribute="bottom" id="jah-CI-ZPU"/>
                                                 <constraint firstItem="Ke4-Rj-12Q" firstAttribute="top" secondItem="RVB-6a-6N2" secondAttribute="topMargin" id="nb6-iY-byj"/>
                                                 <constraint firstItem="Ke4-Rj-12Q" firstAttribute="leading" secondItem="RVB-6a-6N2" secondAttribute="leadingMargin" constant="16" id="wwn-Aa-rQk"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="textField" destination="N3K-Dd-3SM" id="MJK-O3-Ayy"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>

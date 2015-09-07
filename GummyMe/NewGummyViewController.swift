@@ -9,11 +9,13 @@
 import UIKit
 
 class NewGummyViewController: UIViewController, UITableViewDataSource, UITableViewDelegate,
-ImageNoteCellDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+ImageNoteCellDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate,
+GummySelectTableViewControllerDelegate, ReviewCellDelegate {
 
     @IBOutlet weak private var tableView: UITableView!
     private var newGummyInfo = NewGummyInfo()
     private var editingImage: UIImage?
+    private let gummyService = GummyService()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,14 +74,18 @@ ImageNoteCellDelegate, UIImagePickerControllerDelegate, UINavigationControllerDe
 
         switch indexPath.row {
         case 0:
-            return tableView.dequeueReusableCellWithIdentifier("SelectCell")!
+            let cell = tableView.dequeueReusableCellWithIdentifier("SelectCell") as! SelectTypeCell
+            cell.configure(newGummyInfo.type)
+            return cell
         case 1:
             let cell = tableView.dequeueReusableCellWithIdentifier("ImageNoteCell") as! ImageNoteCell
             cell.delegate = self
             cell.editingImage = editingImage
             return cell
         case 2:
-            return tableView.dequeueReusableCellWithIdentifier("ReviewCell")!
+            let cell = tableView.dequeueReusableCellWithIdentifier("ReviewCell") as! ReviewCell
+            cell.delegate = self
+            return cell
         default:
             return UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "Cell")
         }
@@ -106,6 +112,13 @@ ImageNoteCellDelegate, UIImagePickerControllerDelegate, UINavigationControllerDe
 
     @IBAction func postButtonTouched(sender: AnyObject) {
         print("投稿")
+        gummyService.postGummy(newGummyInfo) { (isSuccess, error) -> Void in
+            if isSuccess {
+                print("post success!")
+            } else {
+                print("error! \(error)")
+            }
+        }
     }
 
     @IBAction func cancelButtonTouched(sender: AnyObject) {
@@ -146,5 +159,27 @@ ImageNoteCellDelegate, UIImagePickerControllerDelegate, UINavigationControllerDe
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
         picker.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
+    // MARK: - GummySelectTableViewControllerDelegate
+    
+    func didSelectGummyType(type: String) {
+        newGummyInfo.type = type
+        tableView.reloadData()
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showSelectType" {
+            let destVC =  segue.destinationViewController as! GummySelectTableViewController
+            destVC.delegate = self
+        }
+    }
+    
+    
+    // MARK: - ReviewCellDelegate
+    
+    func didSelectReview(star: Int) {
+        newGummyInfo.review = star
     }
 }

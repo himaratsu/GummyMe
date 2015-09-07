@@ -27,10 +27,14 @@ class ImageNoteCell: UITableViewCell, UITextViewDelegate {
         }
     }
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
 
+        thumbImageView.layer.cornerRadius = 5
+        thumbImageView.clipsToBounds = true
+        textView.layer.cornerRadius = 5
+        textView.clipsToBounds = true
+        
         let tapGesture = UITapGestureRecognizer(target: self, action: "imageViewTouched")
         thumbImageView.addGestureRecognizer(tapGesture)
     }
