@@ -27,7 +27,22 @@ class HomeGummyCell: UITableViewCell {
     }
     
     func configure(gummy: Gummy) {
+        if let imageUrl = gummy.imageUrl {
+            gummyImageView.sd_setImageWithURL(NSURL(string: imageUrl))
+        }
         
+        gummyTitleLabel.text = gummy.type
+        
+        let dateFormatter = NSDateFormatter()
+        dateFormatter.locale = NSLocale(localeIdentifier: "en_us_POSIX")
+        dateFormatter.dateFormat = "yyyy.MM.dd"
+        if let createdAt = gummy.createdAt {
+            dateLabel.text = dateFormatter.stringFromDate(createdAt)
+        }
+        
+        commentLabel.text = gummy.note
+        
+        userNameLabel.text = "名無しさん"
     }
 
     

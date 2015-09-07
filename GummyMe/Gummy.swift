@@ -29,6 +29,7 @@ class Gummy: NSObject {
         
         if let image = pfObject["image"] as? PFFile {
             self.imageUrl = image.url
+            print(self.imageUrl)
         }
         
         self.type = pfObject["type"] as? String

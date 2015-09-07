@@ -8,7 +8,6 @@
 
 import UIKit
 import Parse
-import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             clientKey: "Al9hnU9MjdEKUsEac2P3slhC2VFyH6Y0iAVz6nF0")
         
         // [Optional] Track statistics around application opens.
-        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        PFAnalytics.trackAppOpenedWithLaunchOptionsInBackground(launchOptions, block: nil)
 
         UINavigationBar.appearance().tintColor = UIColor.whiteColor()
         UINavigationBar.appearance().barTintColor = UIColor(red: 155/255.0, green: 89/255.0, blue: 182/255.0, alpha: 1)

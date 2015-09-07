@@ -7,29 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F80B4B63F5FB1E1D0BD68FE /* libPods-GummyMe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D82DC2F0235BEE109D667C62 /* libPods-GummyMe.a */; };
 		D95C1D881B9D5DDD00B83DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1D871B9D5DDD00B83DC9 /* AppDelegate.swift */; };
 		D95C1D8D1B9D5DDD00B83DC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95C1D8B1B9D5DDD00B83DC9 /* Main.storyboard */; };
 		D95C1D8F1B9D5DDD00B83DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95C1D8E1B9D5DDD00B83DC9 /* Assets.xcassets */; };
 		D95C1D921B9D5DDD00B83DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95C1D901B9D5DDD00B83DC9 /* LaunchScreen.storyboard */; };
-		D95C1D9A1B9D5E7400B83DC9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1D991B9D5E7400B83DC9 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1D9E1B9D62BA00B83DC9 /* himara2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D95C1D9D1B9D62B900B83DC9 /* himara2.jpeg */; settings = {ASSET_TAGS = (); }; };
-		D95C1DA11B9D643A00B83DC9 /* HomeGummyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DA01B9D643A00B83DC9 /* HomeGummyCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1DA31B9D64D900B83DC9 /* sours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D95C1DA21B9D64D900B83DC9 /* sours.jpg */; settings = {ASSET_TAGS = (); }; };
-		D95C1DA51B9D68E800B83DC9 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DA41B9D68E800B83DC9 /* TabViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1DA71B9D742B00B83DC9 /* NewGummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DA61B9D742B00B83DC9 /* NewGummyViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1DA91B9D7A4A00B83DC9 /* ImageNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DA81B9D7A4A00B83DC9 /* ImageNoteCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1DAE1B9D804A00B83DC9 /* NewGummyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DAD1B9D804A00B83DC9 /* NewGummyInfo.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1DB11B9D83F300B83DC9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DB01B9D83F300B83DC9 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1DB51B9D85A500B83DC9 /* DetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DB41B9D85A500B83DC9 /* DetailImageCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1DB71B9D87EB00B83DC9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DB61B9D87EB00B83DC9 /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D95C1DBA1B9D8D3200B83DC9 /* GummySelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DB91B9D8D3200B83DC9 /* GummySelectTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D96A217F1B9DAA68002C09FD /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21781B9DAA68002C09FD /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
-		D96A21801B9DAA68002C09FD /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21791B9DAA68002C09FD /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
-		D96A21811B9DAA68002C09FD /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A217A1B9DAA68002C09FD /* ParseCrashReporting.framework */; settings = {ASSET_TAGS = (); }; };
-		D96A21821B9DAA68002C09FD /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A217B1B9DAA68002C09FD /* ParseFacebookUtils.framework */; settings = {ASSET_TAGS = (); }; };
-		D96A21831B9DAA68002C09FD /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A217C1B9DAA68002C09FD /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
-		D96A21841B9DAA68002C09FD /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A217D1B9DAA68002C09FD /* ParseTwitterUtils.framework */; settings = {ASSET_TAGS = (); }; };
-		D96A21851B9DAA68002C09FD /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A217E1B9DAA68002C09FD /* ParseUI.framework */; settings = {ASSET_TAGS = (); }; };
+		D95C1D9A1B9D5E7400B83DC9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1D991B9D5E7400B83DC9 /* HomeViewController.swift */; };
+		D95C1D9E1B9D62BA00B83DC9 /* himara2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D95C1D9D1B9D62B900B83DC9 /* himara2.jpeg */; };
+		D95C1DA11B9D643A00B83DC9 /* HomeGummyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DA01B9D643A00B83DC9 /* HomeGummyCell.swift */; };
+		D95C1DA31B9D64D900B83DC9 /* sours.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D95C1DA21B9D64D900B83DC9 /* sours.jpg */; };
+		D95C1DA51B9D68E800B83DC9 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DA41B9D68E800B83DC9 /* TabViewController.swift */; };
+		D95C1DA71B9D742B00B83DC9 /* NewGummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DA61B9D742B00B83DC9 /* NewGummyViewController.swift */; };
+		D95C1DA91B9D7A4A00B83DC9 /* ImageNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DA81B9D7A4A00B83DC9 /* ImageNoteCell.swift */; };
+		D95C1DAE1B9D804A00B83DC9 /* NewGummyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DAD1B9D804A00B83DC9 /* NewGummyInfo.swift */; };
+		D95C1DB11B9D83F300B83DC9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DB01B9D83F300B83DC9 /* DetailViewController.swift */; };
+		D95C1DB51B9D85A500B83DC9 /* DetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DB41B9D85A500B83DC9 /* DetailImageCell.swift */; };
+		D95C1DB71B9D87EB00B83DC9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DB61B9D87EB00B83DC9 /* ProfileViewController.swift */; };
+		D95C1DBA1B9D8D3200B83DC9 /* GummySelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95C1DB91B9D8D3200B83DC9 /* GummySelectTableViewController.swift */; };
 		D96A21871B9DAA8E002C09FD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21861B9DAA8E002C09FD /* AudioToolbox.framework */; };
 		D96A21891B9DAA92002C09FD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21881B9DAA92002C09FD /* CFNetwork.framework */; };
 		D96A218B1B9DAA98002C09FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A218A1B9DAA98002C09FD /* CoreGraphics.framework */; };
@@ -40,13 +34,17 @@
 		D96A21951B9DAAB6002C09FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21941B9DAAB6002C09FD /* SystemConfiguration.framework */; };
 		D96A21971B9DAAC6002C09FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21961B9DAAC6002C09FD /* libz.tbd */; };
 		D96A21991B9DAACC002C09FD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21981B9DAACC002C09FD /* libsqlite3.tbd */; };
-		D96A219C1B9DAD29002C09FD /* GummyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A219B1B9DAD29002C09FD /* GummyService.swift */; settings = {ASSET_TAGS = (); }; };
-		D96A219F1B9DAF1B002C09FD /* SelectTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A219E1B9DAF1B002C09FD /* SelectTypeCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D96A21A11B9DB131002C09FD /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21A01B9DB131002C09FD /* ReviewCell.swift */; settings = {ASSET_TAGS = (); }; };
-		D96A21A41B9DD55E002C09FD /* Gummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21A31B9DD55E002C09FD /* Gummy.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A219C1B9DAD29002C09FD /* GummyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A219B1B9DAD29002C09FD /* GummyService.swift */; };
+		D96A219F1B9DAF1B002C09FD /* SelectTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A219E1B9DAF1B002C09FD /* SelectTypeCell.swift */; };
+		D96A21A11B9DB131002C09FD /* ReviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21A01B9DB131002C09FD /* ReviewCell.swift */; };
+		D96A21A41B9DD55E002C09FD /* Gummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21A31B9DD55E002C09FD /* Gummy.swift */; };
+		D96A21AA1B9DDCE2002C09FD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21A91B9DDCE2002C09FD /* Social.framework */; };
+		D96A21AD1B9DE1CB002C09FD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21AC1B9DE1CB002C09FD /* Util.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAEBF0E96C7E9147E59F5879 /* Pods-GummyMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummyMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GummyMe/Pods-GummyMe.debug.xcconfig"; sourceTree = "<group>"; };
+		D82DC2F0235BEE109D667C62 /* libPods-GummyMe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GummyMe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95C1D841B9D5DDD00B83DC9 /* GummyMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GummyMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95C1D871B9D5DDD00B83DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D95C1D8C1B9D5DDD00B83DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,13 +63,6 @@
 		D95C1DB41B9D85A500B83DC9 /* DetailImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageCell.swift; sourceTree = "<group>"; };
 		D95C1DB61B9D87EB00B83DC9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D95C1DB91B9D8D3200B83DC9 /* GummySelectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GummySelectTableViewController.swift; sourceTree = "<group>"; };
-		D96A21781B9DAA68002C09FD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		D96A21791B9DAA68002C09FD /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
-		D96A217A1B9DAA68002C09FD /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
-		D96A217B1B9DAA68002C09FD /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
-		D96A217C1B9DAA68002C09FD /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
-		D96A217D1B9DAA68002C09FD /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
-		D96A217E1B9DAA68002C09FD /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		D96A21861B9DAA8E002C09FD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		D96A21881B9DAA92002C09FD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		D96A218A1B9DAA98002C09FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,6 +77,10 @@
 		D96A219E1B9DAF1B002C09FD /* SelectTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectTypeCell.swift; sourceTree = "<group>"; };
 		D96A21A01B9DB131002C09FD /* ReviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewCell.swift; sourceTree = "<group>"; };
 		D96A21A31B9DD55E002C09FD /* Gummy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gummy.swift; sourceTree = "<group>"; };
+		D96A21A51B9DDB80002C09FD /* GummyMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GummyMe-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		D96A21A91B9DDCE2002C09FD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		D96A21AC1B9DE1CB002C09FD /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		DAB64660734F1FB71EA1DF68 /* Pods-GummyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummyMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-GummyMe/Pods-GummyMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D96A21AA1B9DDCE2002C09FD /* Social.framework in Frameworks */,
 				D96A21991B9DAACC002C09FD /* libsqlite3.tbd in Frameworks */,
 				D96A21971B9DAAC6002C09FD /* libz.tbd in Frameworks */,
 				D96A21951B9DAAB6002C09FD /* SystemConfiguration.framework in Frameworks */,
@@ -103,24 +99,37 @@
 				D96A218B1B9DAA98002C09FD /* CoreGraphics.framework in Frameworks */,
 				D96A21891B9DAA92002C09FD /* CFNetwork.framework in Frameworks */,
 				D96A21871B9DAA8E002C09FD /* AudioToolbox.framework in Frameworks */,
-				D96A21801B9DAA68002C09FD /* Parse.framework in Frameworks */,
-				D96A21811B9DAA68002C09FD /* ParseCrashReporting.framework in Frameworks */,
-				D96A21851B9DAA68002C09FD /* ParseUI.framework in Frameworks */,
-				D96A21821B9DAA68002C09FD /* ParseFacebookUtils.framework in Frameworks */,
-				D96A217F1B9DAA68002C09FD /* Bolts.framework in Frameworks */,
-				D96A21841B9DAA68002C09FD /* ParseTwitterUtils.framework in Frameworks */,
-				D96A21831B9DAA68002C09FD /* ParseFacebookUtilsV4.framework in Frameworks */,
+				5F80B4B63F5FB1E1D0BD68FE /* libPods-GummyMe.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3919EC1DFB6105EC74AC2CF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAEBF0E96C7E9147E59F5879 /* Pods-GummyMe.debug.xcconfig */,
+				DAB64660734F1FB71EA1DF68 /* Pods-GummyMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8AF47152C8EFBA03D22E88D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82DC2F0235BEE109D667C62 /* libPods-GummyMe.a */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		D95C1D7B1B9D5DDD00B83DC9 = {
 			isa = PBXGroup;
 			children = (
 				D95C1D861B9D5DDD00B83DC9 /* GummyMe */,
 				D95C1D851B9D5DDD00B83DC9 /* Products */,
+				3919EC1DFB6105EC74AC2CF1 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +144,7 @@
 		D95C1D861B9D5DDD00B83DC9 /* GummyMe */ = {
 			isa = PBXGroup;
 			children = (
+				D96A21AB1B9DE1BF002C09FD /* Library */,
 				D96A21771B9DAA5B002C09FD /* Parse */,
 				D95C1DAF1B9D83E400B83DC9 /* Controller */,
 				D95C1DAC1B9D803C00B83DC9 /* Model */,
@@ -147,6 +157,8 @@
 				D95C1DA21B9D64D900B83DC9 /* sours.jpg */,
 				D95C1D931B9D5DDD00B83DC9 /* Info.plist */,
 				D95C1DA41B9D68E800B83DC9 /* TabViewController.swift */,
+				D96A21A51B9DDB80002C09FD /* GummyMe-Bridging-Header.h */,
+				A8AF47152C8EFBA03D22E88D /* Frameworks */,
 			);
 			path = GummyMe;
 			sourceTree = "<group>";
@@ -201,6 +213,7 @@
 		D96A21771B9DAA5B002C09FD /* Parse */ = {
 			isa = PBXGroup;
 			children = (
+				D96A21A91B9DDCE2002C09FD /* Social.framework */,
 				D96A21981B9DAACC002C09FD /* libsqlite3.tbd */,
 				D96A21961B9DAAC6002C09FD /* libz.tbd */,
 				D96A21941B9DAAB6002C09FD /* SystemConfiguration.framework */,
@@ -211,13 +224,6 @@
 				D96A218A1B9DAA98002C09FD /* CoreGraphics.framework */,
 				D96A21881B9DAA92002C09FD /* CFNetwork.framework */,
 				D96A21861B9DAA8E002C09FD /* AudioToolbox.framework */,
-				D96A21781B9DAA68002C09FD /* Bolts.framework */,
-				D96A21791B9DAA68002C09FD /* Parse.framework */,
-				D96A217A1B9DAA68002C09FD /* ParseCrashReporting.framework */,
-				D96A217B1B9DAA68002C09FD /* ParseFacebookUtils.framework */,
-				D96A217C1B9DAA68002C09FD /* ParseFacebookUtilsV4.framework */,
-				D96A217D1B9DAA68002C09FD /* ParseTwitterUtils.framework */,
-				D96A217E1B9DAA68002C09FD /* ParseUI.framework */,
 			);
 			name = Parse;
 			sourceTree = "<group>";
@@ -249,6 +255,14 @@
 			name = Entity;
 			sourceTree = "<group>";
 		};
+		D96A21AB1B9DE1BF002C09FD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				D96A21AC1B9DE1CB002C09FD /* Util.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -256,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D95C1D961B9D5DDD00B83DC9 /* Build configuration list for PBXNativeTarget "GummyMe" */;
 			buildPhases = (
+				19985FBCC7E8237D7FD5E49F /* Check Pods Manifest.lock */,
 				D95C1D801B9D5DDD00B83DC9 /* Sources */,
 				D95C1D811B9D5DDD00B83DC9 /* Frameworks */,
 				D95C1D821B9D5DDD00B83DC9 /* Resources */,
+				56ED3214D52685CA029B2FA0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -275,6 +291,7 @@
 		D95C1D7C1B9D5DDD00B83DC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ryosuke Hiramatsu";
 				TargetAttributes = {
@@ -316,6 +333,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19985FBCC7E8237D7FD5E49F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		56ED3214D52685CA029B2FA0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GummyMe/Pods-GummyMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D95C1D801B9D5DDD00B83DC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -324,6 +374,7 @@
 				D95C1DA51B9D68E800B83DC9 /* TabViewController.swift in Sources */,
 				D96A219C1B9DAD29002C09FD /* GummyService.swift in Sources */,
 				D95C1DA11B9D643A00B83DC9 /* HomeGummyCell.swift in Sources */,
+				D96A21AD1B9DE1CB002C09FD /* Util.swift in Sources */,
 				D96A219F1B9DAF1B002C09FD /* SelectTypeCell.swift in Sources */,
 				D95C1DBA1B9D8D3200B83DC9 /* GummySelectTableViewController.swift in Sources */,
 				D95C1DB71B9D87EB00B83DC9 /* ProfileViewController.swift in Sources */,
@@ -444,8 +495,10 @@
 		};
 		D95C1D971B9D5DDD00B83DC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEBF0E96C7E9147E59F5879 /* Pods-GummyMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GummyMe",
@@ -454,13 +507,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.mashroom.GummyMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GummyMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D95C1D981B9D5DDD00B83DC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB64660734F1FB71EA1DF68 /* Pods-GummyMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GummyMe",
@@ -469,6 +526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = in.mashroom.GummyMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GummyMe-Bridging-Header.h";
 			};
 			name = Release;
 		};
