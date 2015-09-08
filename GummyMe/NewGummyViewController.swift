@@ -111,7 +111,6 @@ GummySelectTableViewControllerDelegate, ReviewCellDelegate {
     // MARK: - Action
 
     @IBAction func postButtonTouched(sender: AnyObject) {
-        print("投稿")
         gummyService.postGummy(newGummyInfo) { (isSuccess, error) -> Void in
             if isSuccess {
                 print("post success!")
@@ -122,7 +121,7 @@ GummySelectTableViewControllerDelegate, ReviewCellDelegate {
     }
 
     @IBAction func cancelButtonTouched(sender: AnyObject) {
-        print("キャンセル")
+        dismissViewControllerAnimated(true, completion: nil)
     }
     
     
@@ -131,6 +130,10 @@ GummySelectTableViewControllerDelegate, ReviewCellDelegate {
     class func createViewController() -> NewGummyViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         return storyboard.instantiateViewControllerWithIdentifier("NewGummyViewController") as! NewGummyViewController
+    }
+    
+    class func createViewControllerWithNavigation() -> UINavigationController {
+        return UINavigationController(rootViewController: createViewController())
     }
     
     

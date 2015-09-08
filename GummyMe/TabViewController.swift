@@ -8,20 +8,21 @@
 
 import UIKit
 
-class TabViewController: UITabBarController {
-
+class TabViewController: UITabBarController, UITabBarControllerDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.delegate = self
     }
-
-//    override func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem) {
-////        if item.title == "Post" {
-////            let newVC = NewGummyViewController.createViewController()
-////            let homeVC = viewControllers?.first as! UINavigationController
-////            homeVC.presentViewController(newVC, animated: true, completion: nil)
-////        }
-//    }
-
+    
+    func tabBarController(tabBarController: UITabBarController, shouldSelectViewController viewController: UIViewController) -> Bool {
+        let targetIndex = viewControllers?.indexOf(viewController)
+        if targetIndex == 1 {
+            let newGummyVC = NewGummyViewController.createViewControllerWithNavigation()
+            self.presentViewController(newGummyVC, animated: true, completion: nil)
+            return false
+        }
+        return true
+    }
+    
 }
