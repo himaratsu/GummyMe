@@ -11,18 +11,25 @@ import UIKit
 class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
+    
+    private let service = ProfileService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        reload()
     }
     
-
+    private func reload() {
+        service.requestCountMyGummy { (count, error) -> Void in
+            if let error = error {
+                print("####error: \(error)")
+            } else {
+                self.tableView.reloadData()
+            }
+        }
+    }
+    
     // MARK: - UITableViewDataSource
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -32,9 +39,12 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         switch indexPath.row {
         case 0:
-            return tableView.dequeueReusableCellWithIdentifier("ProfileCell")!
+            let profileCell = tableView.dequeueReusableCellWithIdentifier("ProfileCell") as! ProfileCell
+            return profileCell
         case 1:
-            return tableView.dequeueReusableCellWithIdentifier("EatGummyCell")!
+            let eatGummyCell = tableView.dequeueReusableCellWithIdentifier("EatGummyCell") as! EatGummyCell
+            eatGummyCell.configure(service.gummyCount)
+            return eatGummyCell
         default:
             fatalError()
         }

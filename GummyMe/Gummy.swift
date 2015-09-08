@@ -15,6 +15,7 @@ class Gummy: NSObject {
     var note: String?
     var imageUrl: String?
     var type: String?
+    var review: Int?
     var createdAt: NSDate?
     var updatedAt: NSDate?
     
@@ -33,6 +34,7 @@ class Gummy: NSObject {
         }
         
         self.type = pfObject["type"] as? String
+        self.review = pfObject["review"] as? Int
         self.createdAt = pfObject.createdAt
         self.updatedAt = pfObject.updatedAt
     }

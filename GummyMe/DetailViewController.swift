@@ -28,7 +28,7 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
         switch indexPath.row {
         case 0:
             let cell = tableView.dequeueReusableCellWithIdentifier("DetailImageCell") as! DetailImageCell
-//            cell.configure(gummy)
+            cell.configure(gummy)
             return cell
         case 1:
             let cell = tableView.dequeueReusableCellWithIdentifier("NoteCell") as! DetailNoteCell
@@ -42,9 +42,9 @@ class DetailViewController: UIViewController, UITableViewDataSource, UITableView
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         switch indexPath.row {
         case 0:
-            return 260
+            return 320
         case 1:
-            return 88
+            return 158
         default:
             return 0
         }

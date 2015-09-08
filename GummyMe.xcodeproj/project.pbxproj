@@ -41,6 +41,12 @@
 		D96A21AA1B9DDCE2002C09FD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96A21A91B9DDCE2002C09FD /* Social.framework */; };
 		D96A21AD1B9DE1CB002C09FD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21AC1B9DE1CB002C09FD /* Util.swift */; settings = {ASSET_TAGS = (); }; };
 		D96A21AF1B9DE439002C09FD /* DetailNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21AE1B9DE439002C09FD /* DetailNoteCell.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A21B71B9EC6D3002C09FD /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21B61B9EC6D3002C09FD /* ProfileService.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A21B91B9EC7FC002C09FD /* GummyTypeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21B81B9EC7FC002C09FD /* GummyTypeService.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A21BB1B9EC82A002C09FD /* GummyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21BA1B9EC82A002C09FD /* GummyType.swift */; settings = {ASSET_TAGS = (); }; };
+		D96A21BE1B9ECAF0002C09FD /* AddNewGummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96A21BD1B9ECAF0002C09FD /* AddNewGummyViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D97CB3BE1B9ED6E9001E3393 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CB3BD1B9ED6E9001E3393 /* ProfileCell.swift */; settings = {ASSET_TAGS = (); }; };
+		D97CB3C01B9ED74E001E3393 /* EatGummyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97CB3BF1B9ED74E001E3393 /* EatGummyCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +88,12 @@
 		D96A21A91B9DDCE2002C09FD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		D96A21AC1B9DE1CB002C09FD /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		D96A21AE1B9DE439002C09FD /* DetailNoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNoteCell.swift; sourceTree = "<group>"; };
+		D96A21B61B9EC6D3002C09FD /* ProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		D96A21B81B9EC7FC002C09FD /* GummyTypeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GummyTypeService.swift; sourceTree = "<group>"; };
+		D96A21BA1B9EC82A002C09FD /* GummyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GummyType.swift; sourceTree = "<group>"; };
+		D96A21BD1B9ECAF0002C09FD /* AddNewGummyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewGummyViewController.swift; sourceTree = "<group>"; };
+		D97CB3BD1B9ED6E9001E3393 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		D97CB3BF1B9ED74E001E3393 /* EatGummyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EatGummyCell.swift; sourceTree = "<group>"; };
 		DAB64660734F1FB71EA1DF68 /* Pods-GummyMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GummyMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-GummyMe/Pods-GummyMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,6 +180,7 @@
 		D95C1D9F1B9D641C00B83DC9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D97CB3BC1B9ED6D8001E3393 /* Me */,
 				D96A219D1B9DAF01002C09FD /* New */,
 				D95C1DB31B9D858F00B83DC9 /* Detail */,
 				D95C1DB21B9D858A00B83DC9 /* Home */,
@@ -187,11 +200,10 @@
 		D95C1DAF1B9D83E400B83DC9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				D97CB3BB1B9ED64B001E3393 /* Me */,
+				D96A21BF1B9ECF8E002C09FD /* Detail */,
+				D96A21BC1B9ECAC1002C09FD /* New */,
 				D95C1D991B9D5E7400B83DC9 /* HomeViewController.swift */,
-				D95C1DB01B9D83F300B83DC9 /* DetailViewController.swift */,
-				D95C1DA61B9D742B00B83DC9 /* NewGummyViewController.swift */,
-				D95C1DB61B9D87EB00B83DC9 /* ProfileViewController.swift */,
-				D95C1DB91B9D8D3200B83DC9 /* GummySelectTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -235,6 +247,8 @@
 			isa = PBXGroup;
 			children = (
 				D96A219B1B9DAD29002C09FD /* GummyService.swift */,
+				D96A21B81B9EC7FC002C09FD /* GummyTypeService.swift */,
+				D96A21B61B9EC6D3002C09FD /* ProfileService.swift */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -254,6 +268,7 @@
 			children = (
 				D95C1DAD1B9D804A00B83DC9 /* NewGummyInfo.swift */,
 				D96A21A31B9DD55E002C09FD /* Gummy.swift */,
+				D96A21BA1B9EC82A002C09FD /* GummyType.swift */,
 			);
 			name = Entity;
 			sourceTree = "<group>";
@@ -264,6 +279,41 @@
 				D96A21AC1B9DE1CB002C09FD /* Util.swift */,
 			);
 			name = Library;
+			sourceTree = "<group>";
+		};
+		D96A21BC1B9ECAC1002C09FD /* New */ = {
+			isa = PBXGroup;
+			children = (
+				D95C1DA61B9D742B00B83DC9 /* NewGummyViewController.swift */,
+				D95C1DB91B9D8D3200B83DC9 /* GummySelectTableViewController.swift */,
+				D96A21BD1B9ECAF0002C09FD /* AddNewGummyViewController.swift */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
+		D96A21BF1B9ECF8E002C09FD /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D95C1DB01B9D83F300B83DC9 /* DetailViewController.swift */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		D97CB3BB1B9ED64B001E3393 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D95C1DB61B9D87EB00B83DC9 /* ProfileViewController.swift */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		D97CB3BC1B9ED6D8001E3393 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				D97CB3BD1B9ED6E9001E3393 /* ProfileCell.swift */,
+				D97CB3BF1B9ED74E001E3393 /* EatGummyCell.swift */,
+			);
+			name = Me;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,14 +427,20 @@
 				D95C1DA51B9D68E800B83DC9 /* TabViewController.swift in Sources */,
 				D96A219C1B9DAD29002C09FD /* GummyService.swift in Sources */,
 				D95C1DA11B9D643A00B83DC9 /* HomeGummyCell.swift in Sources */,
+				D97CB3BE1B9ED6E9001E3393 /* ProfileCell.swift in Sources */,
 				D96A21AD1B9DE1CB002C09FD /* Util.swift in Sources */,
+				D96A21B91B9EC7FC002C09FD /* GummyTypeService.swift in Sources */,
 				D96A219F1B9DAF1B002C09FD /* SelectTypeCell.swift in Sources */,
 				D95C1DBA1B9D8D3200B83DC9 /* GummySelectTableViewController.swift in Sources */,
+				D96A21BB1B9EC82A002C09FD /* GummyType.swift in Sources */,
 				D95C1DB71B9D87EB00B83DC9 /* ProfileViewController.swift in Sources */,
 				D95C1D881B9D5DDD00B83DC9 /* AppDelegate.swift in Sources */,
 				D95C1DA91B9D7A4A00B83DC9 /* ImageNoteCell.swift in Sources */,
+				D97CB3C01B9ED74E001E3393 /* EatGummyCell.swift in Sources */,
+				D96A21BE1B9ECAF0002C09FD /* AddNewGummyViewController.swift in Sources */,
 				D96A21AF1B9DE439002C09FD /* DetailNoteCell.swift in Sources */,
 				D95C1DAE1B9D804A00B83DC9 /* NewGummyInfo.swift in Sources */,
+				D96A21B71B9EC6D3002C09FD /* ProfileService.swift in Sources */,
 				D95C1DB51B9D85A500B83DC9 /* DetailImageCell.swift in Sources */,
 				D95C1DA71B9D742B00B83DC9 /* NewGummyViewController.swift in Sources */,
 				D95C1D9A1B9D5E7400B83DC9 /* HomeViewController.swift in Sources */,
@@ -503,6 +559,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GummyMe",
@@ -522,6 +579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GummyMe",

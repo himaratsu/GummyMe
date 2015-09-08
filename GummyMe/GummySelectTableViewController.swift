@@ -12,13 +12,26 @@ protocol GummySelectTableViewControllerDelegate {
     func didSelectGummyType(type: String)
 }
 
-class GummySelectTableViewController: UITableViewController {
+class GummySelectTableViewController: UITableViewController, AddNewGummyVCDelegate {
 
+    private let service = GummyTypeService()
+    
     var delegate: GummySelectTableViewControllerDelegate?
-    var gummyTypes = ["SOURS グレープ", "Pureグミ"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        reload()
+    }
+    
+    private func reload() {
+        service.requestGummyType { (gummyTypes, error) -> Void in
+            if let error = error {
+                print("##### error: \(error)")
+            } else {
+                self.tableView.reloadData()
+            }
+        }
     }
 
     // MARK: - Table view data source
@@ -32,7 +45,7 @@ class GummySelectTableViewController: UITableViewController {
         case 0:
             return 1
         case 1:
-            return gummyTypes.count
+            return service.gummyTypes.count
         default:
             return 0
         }
@@ -44,7 +57,7 @@ class GummySelectTableViewController: UITableViewController {
             return tableView.dequeueReusableCellWithIdentifier("AddNewCell")!
         case 1:
             let cell = tableView.dequeueReusableCellWithIdentifier("GummyTypeCell")!
-            cell.textLabel?.text = gummyTypes[indexPath.row]
+            cell.textLabel?.text = service.gummyTypes[indexPath.row].typeName
             return cell
         default:
             fatalError()
@@ -52,8 +65,27 @@ class GummySelectTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        delegate?.didSelectGummyType(gummyTypes[indexPath.row])
-        self.navigationController?.popViewControllerAnimated(true)
+        switch indexPath.section {
+        case 1:
+            delegate?.didSelectGummyType(service.gummyTypes[indexPath.row].typeName)
+            self.navigationController?.popViewControllerAnimated(true)
+        default: ()
+        }
+    }
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showNewGummyType" {
+            let destVC = segue.destinationViewController as! AddNewGummyViewController
+            destVC.delegate = self
+        }
+    }
+    
+    
+    // MARK: - AddNewGummyVCDelegate
+    
+    func didSuccessNewTypeCreation(type: GummyType) {
+        delegate?.didSelectGummyType(type.typeName)
     }
     
 }
