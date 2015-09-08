@@ -1,0 +1,281 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EatGummyCell"
+provides-nominal:
+- "C7GummyMe12EatGummyCell"
+provides-member:
+- ["C7GummyMe12EatGummyCell", ""]
+provides-dynamic-lookup:
+- "countLabel"
+- "awakeFromNib"
+- "configure"
+depends-top-level:
+- "EatGummyCell"
+- "UILabel"
+- !private "StringLiteralType"
+- "UITableViewCell"
+- "Int32"
+depends-member:
+- ["PSs9AnyObject", "awakeFromNib"]
+- ["PSs9AnyObject", "configure"]
+- ["PSs9AnyObject", "countLabel"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "text"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "deinit"]
+- ["PSs11CVarArgType", "awakeFromNib"]
+- ["PSs11CVarArgType", "configure"]
+- ["PSs11CVarArgType", "countLabel"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "text"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "awakeFromNib"]
+- ["PSs23CustomStringConvertible", "configure"]
+- ["PSs23CustomStringConvertible", "countLabel"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- ["C7GummyMe12EatGummyCell", "Int32"]
+- ["C7GummyMe12EatGummyCell", "UILabel"]
+- ["C7GummyMe12EatGummyCell", "awakeFromNib"]
+- ["C7GummyMe12EatGummyCell", "configure"]
+- ["C7GummyMe12EatGummyCell", "countLabel"]
+- ["C7GummyMe12EatGummyCell", "deinit"]
+- ["C7GummyMe12EatGummyCell", "init"]
+- ["PSs9Equatable", "awakeFromNib"]
+- ["PSs9Equatable", "configure"]
+- ["PSs9Equatable", "countLabel"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "text"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- ["PSs8Hashable", "awakeFromNib"]
+- ["PSs8Hashable", "configure"]
+- ["PSs8Hashable", "countLabel"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "text"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- ["PSo8NSCoding", "configure"]
+- ["PSo8NSCoding", "countLabel"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Int32"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- ["CSo8NSObject", "configure"]
+- ["CSo8NSObject", "countLabel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "text"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- ["PSo16NSObjectProtocol", "configure"]
+- ["PSo16NSObjectProtocol", "countLabel"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "configure"]
+- ["PSo29UIAccessibilityIdentification", "countLabel"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "configure"]
+- ["PSo12UIAppearance", "countLabel"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "configure"]
+- ["PSo21UIAppearanceContainer", "countLabel"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "configure"]
+- ["PSo17UICoordinateSpace", "countLabel"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "configure"]
+- ["PSo13UIDynamicItem", "countLabel"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- ["PSo27UIGestureRecognizerDelegate", "configure"]
+- ["PSo27UIGestureRecognizerDelegate", "countLabel"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "Int32"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "configure"]
+- ["CSo11UIResponder", "countLabel"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo15UITableViewCell", "Int32"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- ["CSo15UITableViewCell", "configure"]
+- ["CSo15UITableViewCell", "countLabel"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", ""]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "configure"]
+- ["PSo18UITraitEnvironment", "countLabel"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Int32"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "configure"]
+- ["CSo6UIView", "countLabel"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "text"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- ["PSs12_Reflectable", "awakeFromNib"]
+- ["PSs12_Reflectable", "configure"]
+- ["PSs12_Reflectable", "countLabel"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "C7GummyMe12EatGummyCell"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/rhiramat/Desktop/GummyMe/GummyMe-Bridging-Header.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/UIImageView+WebCache.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageCompat.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageManager.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageOperation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageDownloader.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDImageCache.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PF_Twitter.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFPush.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFPurchase.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFProduct.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFInstallation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFRole.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFRelation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFQuery.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFFile.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFConfig.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFCloud.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFObject.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFUser.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFConstants.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFNullability.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFACL.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/Parse.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+interface-hash: "cecdb30911ac1b03997c27a9d2032b2b"

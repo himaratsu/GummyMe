@@ -1,0 +1,889 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GummySelectTableViewControllerDelegate"
+- "GummySelectTableViewController"
+provides-nominal:
+- "P7GummyMe38GummySelectTableViewControllerDelegate"
+- "C7GummyMe30GummySelectTableViewController"
+provides-member:
+- ["P7GummyMe38GummySelectTableViewControllerDelegate", ""]
+- ["C7GummyMe30GummySelectTableViewController", ""]
+provides-dynamic-lookup:
+- "tableView"
+- "tableView"
+- "tableView"
+- "prepareForSegue"
+- "viewDidLoad"
+- "numberOfSectionsInTableView"
+depends-top-level:
+- !private "=="
+- !private "Void"
+- !private "~="
+- !private "AddNewGummyViewController"
+- "UITableView"
+- "GummyType"
+- "UITableViewCell"
+- "UITableViewController"
+- "AddNewGummyVCDelegate"
+- "Int"
+- "StringLiteralType"
+- !private "print"
+- "GummyTypeService"
+- "NSIndexPath"
+- "AnyObject"
+- !private "BooleanLiteralType"
+- "GummySelectTableViewController"
+- !private "fatalError"
+- "UIStoryboardSegue"
+- "String"
+- "GummySelectTableViewControllerDelegate"
+depends-member:
+- ["P7GummyMe21AddNewGummyVCDelegate", "GummyTypeService"]
+- !private ["P7GummyMe21AddNewGummyVCDelegate", "delegate"]
+- ["P7GummyMe21AddNewGummyVCDelegate", "didSuccessNewTypeCreation"]
+- !private ["P7GummyMe21AddNewGummyVCDelegate", "fatalError"]
+- !private ["P7GummyMe21AddNewGummyVCDelegate", "navigationController"]
+- !private ["P7GummyMe21AddNewGummyVCDelegate", "print"]
+- !private ["P7GummyMe21AddNewGummyVCDelegate", "reload"]
+- !private ["P7GummyMe21AddNewGummyVCDelegate", "service"]
+- !private ["P7GummyMe21AddNewGummyVCDelegate", "tableView"]
+- ["P7GummyMe21AddNewGummyVCDelegate", ""]
+- !private ["C7GummyMe25AddNewGummyViewController", "delegate"]
+- ["PSs9AnyObject", "GummyTypeService"]
+- ["PSs9AnyObject", "delegate"]
+- !private ["PSs9AnyObject", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs9AnyObject", "destinationViewController"]
+- ["PSs9AnyObject", "didSuccessNewTypeCreation"]
+- !private ["PSs9AnyObject", "fatalError"]
+- !private ["PSs9AnyObject", "gummyTypes"]
+- !private ["PSs9AnyObject", "identifier"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "navigationController"]
+- ["PSs9AnyObject", "numberOfSectionsInTableView"]
+- !private ["PSs9AnyObject", "popViewControllerAnimated"]
+- ["PSs9AnyObject", "prepareForSegue"]
+- !private ["PSs9AnyObject", "print"]
+- ["PSs9AnyObject", "reload"]
+- !private ["PSs9AnyObject", "reloadData"]
+- !private ["PSs9AnyObject", "requestGummyType"]
+- !private ["PSs9AnyObject", "row"]
+- !private ["PSs9AnyObject", "section"]
+- ["PSs9AnyObject", "service"]
+- ["PSs9AnyObject", "tableView"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "textLabel"]
+- !private ["PSs9AnyObject", "typeName"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- ["PSs11CVarArgType", "GummyTypeService"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- ["PSs11CVarArgType", "delegate"]
+- !private ["PSs11CVarArgType", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
+- ["PSs11CVarArgType", "didSuccessNewTypeCreation"]
+- !private ["PSs11CVarArgType", "fatalError"]
+- !private ["PSs11CVarArgType", "gummyTypes"]
+- !private ["PSs11CVarArgType", "identifier"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "navigationController"]
+- ["PSs11CVarArgType", "numberOfSectionsInTableView"]
+- !private ["PSs11CVarArgType", "popViewControllerAnimated"]
+- ["PSs11CVarArgType", "prepareForSegue"]
+- !private ["PSs11CVarArgType", "print"]
+- ["PSs11CVarArgType", "reload"]
+- !private ["PSs11CVarArgType", "reloadData"]
+- !private ["PSs11CVarArgType", "requestGummyType"]
+- !private ["PSs11CVarArgType", "row"]
+- !private ["PSs11CVarArgType", "section"]
+- ["PSs11CVarArgType", "service"]
+- ["PSs11CVarArgType", "tableView"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "textLabel"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- ["PSs23CustomStringConvertible", "GummyTypeService"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- ["PSs23CustomStringConvertible", "delegate"]
+- !private ["PSs23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
+- ["PSs23CustomStringConvertible", "didSuccessNewTypeCreation"]
+- !private ["PSs23CustomStringConvertible", "fatalError"]
+- !private ["PSs23CustomStringConvertible", "gummyTypes"]
+- !private ["PSs23CustomStringConvertible", "identifier"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "navigationController"]
+- ["PSs23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["PSs23CustomStringConvertible", "popViewControllerAnimated"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- ["PSs23CustomStringConvertible", "reload"]
+- !private ["PSs23CustomStringConvertible", "reloadData"]
+- !private ["PSs23CustomStringConvertible", "requestGummyType"]
+- !private ["PSs23CustomStringConvertible", "row"]
+- !private ["PSs23CustomStringConvertible", "section"]
+- ["PSs23CustomStringConvertible", "service"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "tableView"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "textLabel"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Distance"]
+- ["PSs9Equatable", "GummyTypeService"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "delegate"]
+- !private ["PSs9Equatable", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs9Equatable", "destinationViewController"]
+- ["PSs9Equatable", "didSuccessNewTypeCreation"]
+- !private ["PSs9Equatable", "fatalError"]
+- !private ["PSs9Equatable", "gummyTypes"]
+- !private ["PSs9Equatable", "identifier"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "navigationController"]
+- ["PSs9Equatable", "numberOfSectionsInTableView"]
+- !private ["PSs9Equatable", "popViewControllerAnimated"]
+- ["PSs9Equatable", "prepareForSegue"]
+- !private ["PSs9Equatable", "print"]
+- ["PSs9Equatable", "reload"]
+- !private ["PSs9Equatable", "reloadData"]
+- !private ["PSs9Equatable", "requestGummyType"]
+- !private ["PSs9Equatable", "row"]
+- !private ["PSs9Equatable", "section"]
+- ["PSs9Equatable", "service"]
+- ["PSs9Equatable", "tableView"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "textLabel"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["C7GummyMe30GummySelectTableViewController", "AddNewGummyViewController"]
+- ["C7GummyMe30GummySelectTableViewController", "AnyObject"]
+- ["C7GummyMe30GummySelectTableViewController", "GummySelectTableViewControllerDelegate"]
+- ["C7GummyMe30GummySelectTableViewController", "GummyType"]
+- ["C7GummyMe30GummySelectTableViewController", "GummyTypeService"]
+- ["C7GummyMe30GummySelectTableViewController", "Int"]
+- ["C7GummyMe30GummySelectTableViewController", "NSIndexPath"]
+- ["C7GummyMe30GummySelectTableViewController", "UIStoryboardSegue"]
+- ["C7GummyMe30GummySelectTableViewController", "UITableView"]
+- ["C7GummyMe30GummySelectTableViewController", "UITableViewCell"]
+- !private ["C7GummyMe30GummySelectTableViewController", "Void"]
+- ["C7GummyMe30GummySelectTableViewController", "deinit"]
+- ["C7GummyMe30GummySelectTableViewController", "delegate"]
+- ["C7GummyMe30GummySelectTableViewController", "didSuccessNewTypeCreation"]
+- !private ["C7GummyMe30GummySelectTableViewController", "fatalError"]
+- ["C7GummyMe30GummySelectTableViewController", "init"]
+- !private ["C7GummyMe30GummySelectTableViewController", "navigationController"]
+- ["C7GummyMe30GummySelectTableViewController", "numberOfSectionsInTableView"]
+- ["C7GummyMe30GummySelectTableViewController", "prepareForSegue"]
+- !private ["C7GummyMe30GummySelectTableViewController", "print"]
+- !private ["C7GummyMe30GummySelectTableViewController", "reload"]
+- !private ["C7GummyMe30GummySelectTableViewController", "service"]
+- ["C7GummyMe30GummySelectTableViewController", "tableView"]
+- ["C7GummyMe30GummySelectTableViewController", "viewDidLoad"]
+- ["P7GummyMe38GummySelectTableViewControllerDelegate", "String"]
+- ["P7GummyMe38GummySelectTableViewControllerDelegate", "didSelectGummyType"]
+- !private ["C7GummyMe9GummyType", "typeName"]
+- !private ["C7GummyMe16GummyTypeService", "gummyTypes"]
+- ["C7GummyMe16GummyTypeService", "init"]
+- !private ["C7GummyMe16GummyTypeService", "requestGummyType"]
+- !private ["PSs8Hashable", "Distance"]
+- ["PSs8Hashable", "GummyTypeService"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "delegate"]
+- !private ["PSs8Hashable", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs8Hashable", "destinationViewController"]
+- ["PSs8Hashable", "didSuccessNewTypeCreation"]
+- !private ["PSs8Hashable", "fatalError"]
+- !private ["PSs8Hashable", "gummyTypes"]
+- !private ["PSs8Hashable", "identifier"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "navigationController"]
+- ["PSs8Hashable", "numberOfSectionsInTableView"]
+- !private ["PSs8Hashable", "popViewControllerAnimated"]
+- ["PSs8Hashable", "prepareForSegue"]
+- !private ["PSs8Hashable", "print"]
+- ["PSs8Hashable", "reload"]
+- !private ["PSs8Hashable", "reloadData"]
+- !private ["PSs8Hashable", "requestGummyType"]
+- !private ["PSs8Hashable", "row"]
+- !private ["PSs8Hashable", "section"]
+- ["PSs8Hashable", "service"]
+- ["PSs8Hashable", "tableView"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "textLabel"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "count"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "count"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "count"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "count"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- ["PSo8NSCoding", "GummyTypeService"]
+- ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
+- ["PSo8NSCoding", "didSuccessNewTypeCreation"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "navigationController"]
+- ["PSo8NSCoding", "numberOfSectionsInTableView"]
+- !private ["PSo8NSCoding", "popViewControllerAnimated"]
+- ["PSo8NSCoding", "prepareForSegue"]
+- !private ["PSo8NSCoding", "print"]
+- ["PSo8NSCoding", "reload"]
+- !private ["PSo8NSCoding", "reloadData"]
+- !private ["PSo8NSCoding", "row"]
+- !private ["PSo8NSCoding", "section"]
+- ["PSo8NSCoding", "service"]
+- ["PSo8NSCoding", "tableView"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "textLabel"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "row"]
+- !private ["PSo9NSCopying", "section"]
+- ["PSo26NSExtensionRequestHandling", "GummyTypeService"]
+- ["PSo26NSExtensionRequestHandling", "delegate"]
+- ["PSo26NSExtensionRequestHandling", "didSuccessNewTypeCreation"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationController"]
+- ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
+- !private ["PSo26NSExtensionRequestHandling", "popViewControllerAnimated"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "reload"]
+- ["PSo26NSExtensionRequestHandling", "service"]
+- ["PSo26NSExtensionRequestHandling", "tableView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo11NSIndexPath", "row"]
+- !private ["CSo11NSIndexPath", "section"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSNumber", "deinit"]
+- !private ["CSo8NSObject", "AddNewGummyViewController"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "GummySelectTableViewControllerDelegate"]
+- ["CSo8NSObject", "GummyType"]
+- ["CSo8NSObject", "GummyTypeService"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo8NSObject", "destinationViewController"]
+- ["CSo8NSObject", "didSuccessNewTypeCreation"]
+- !private ["CSo8NSObject", "fatalError"]
+- !private ["CSo8NSObject", "gummyTypes"]
+- !private ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "popViewControllerAnimated"]
+- ["CSo8NSObject", "prepareForSegue"]
+- !private ["CSo8NSObject", "print"]
+- ["CSo8NSObject", "reload"]
+- !private ["CSo8NSObject", "reloadData"]
+- !private ["CSo8NSObject", "requestGummyType"]
+- !private ["CSo8NSObject", "row"]
+- !private ["CSo8NSObject", "section"]
+- ["CSo8NSObject", "service"]
+- ["CSo8NSObject", "tableView"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "textLabel"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "GummyTypeService"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
+- ["PSo16NSObjectProtocol", "didSuccessNewTypeCreation"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "gummyTypes"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "popViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- ["PSo16NSObjectProtocol", "reload"]
+- !private ["PSo16NSObjectProtocol", "reloadData"]
+- !private ["PSo16NSObjectProtocol", "requestGummyType"]
+- !private ["PSo16NSObjectProtocol", "row"]
+- !private ["PSo16NSObjectProtocol", "section"]
+- ["PSo16NSObjectProtocol", "service"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "textLabel"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "row"]
+- !private ["PSo14NSSecureCoding", "section"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo7NSValue", "deinit"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo29UIAccessibilityIdentification", "reloadData"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo29UIAccessibilityIdentification", "textLabel"]
+- !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo12UIAppearance", "reloadData"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo12UIAppearance", "textLabel"]
+- ["PSo21UIAppearanceContainer", "GummyTypeService"]
+- ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
+- ["PSo21UIAppearanceContainer", "didSuccessNewTypeCreation"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "navigationController"]
+- ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
+- !private ["PSo21UIAppearanceContainer", "popViewControllerAnimated"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- ["PSo21UIAppearanceContainer", "reload"]
+- !private ["PSo21UIAppearanceContainer", "reloadData"]
+- ["PSo21UIAppearanceContainer", "service"]
+- ["PSo21UIAppearanceContainer", "tableView"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "textLabel"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "GummyTypeService"]
+- ["PSo18UIContentContainer", "delegate"]
+- ["PSo18UIContentContainer", "didSuccessNewTypeCreation"]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "navigationController"]
+- ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
+- !private ["PSo18UIContentContainer", "popViewControllerAnimated"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "reload"]
+- ["PSo18UIContentContainer", "service"]
+- ["PSo18UIContentContainer", "tableView"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo17UICoordinateSpace", "reloadData"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo17UICoordinateSpace", "textLabel"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo13UIDynamicItem", "reloadData"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo13UIDynamicItem", "textLabel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "textLabel"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo22UINavigationController", "popViewControllerAnimated"]
+- !private ["CSo11UIResponder", "AddNewGummyViewController"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "GummySelectTableViewControllerDelegate"]
+- ["CSo11UIResponder", "GummyType"]
+- ["CSo11UIResponder", "GummyTypeService"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSIndexPath"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "UITableViewCell"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
+- ["CSo11UIResponder", "didSuccessNewTypeCreation"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "navigationController"]
+- ["CSo11UIResponder", "numberOfSectionsInTableView"]
+- !private ["CSo11UIResponder", "popViewControllerAnimated"]
+- ["CSo11UIResponder", "prepareForSegue"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "reload"]
+- !private ["CSo11UIResponder", "reloadData"]
+- ["CSo11UIResponder", "service"]
+- ["CSo11UIResponder", "tableView"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "textLabel"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo12UIScrollView", "reloadData"]
+- ["PSo20UIScrollViewDelegate", "GummyTypeService"]
+- ["PSo20UIScrollViewDelegate", "delegate"]
+- ["PSo20UIScrollViewDelegate", "didSuccessNewTypeCreation"]
+- !private ["PSo20UIScrollViewDelegate", "fatalError"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "navigationController"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo20UIScrollViewDelegate", "prepareForSegue"]
+- !private ["PSo20UIScrollViewDelegate", "print"]
+- ["PSo20UIScrollViewDelegate", "reload"]
+- ["PSo20UIScrollViewDelegate", "service"]
+- ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewDidLoad"]
+- ["PSo20UIScrollViewDelegate", ""]
+- ["PSo16UIStateRestoring", "GummyTypeService"]
+- ["PSo16UIStateRestoring", "delegate"]
+- ["PSo16UIStateRestoring", "didSuccessNewTypeCreation"]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "navigationController"]
+- ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
+- !private ["PSo16UIStateRestoring", "popViewControllerAnimated"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "reload"]
+- ["PSo16UIStateRestoring", "service"]
+- ["PSo16UIStateRestoring", "tableView"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
+- !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo11UITableView", "reloadData"]
+- !private ["CSo15UITableViewCell", "textLabel"]
+- !private ["CSo21UITableViewController", "AddNewGummyViewController"]
+- ["CSo21UITableViewController", "AnyObject"]
+- ["CSo21UITableViewController", "GummySelectTableViewControllerDelegate"]
+- ["CSo21UITableViewController", "GummyType"]
+- ["CSo21UITableViewController", "GummyTypeService"]
+- ["CSo21UITableViewController", "Int"]
+- ["CSo21UITableViewController", "NSIndexPath"]
+- ["CSo21UITableViewController", "UIStoryboardSegue"]
+- ["CSo21UITableViewController", "UITableView"]
+- ["CSo21UITableViewController", "UITableViewCell"]
+- !private ["CSo21UITableViewController", "Void"]
+- ["CSo21UITableViewController", "delegate"]
+- ["CSo21UITableViewController", "didSuccessNewTypeCreation"]
+- !private ["CSo21UITableViewController", "fatalError"]
+- ["CSo21UITableViewController", "init"]
+- !private ["CSo21UITableViewController", "navigationController"]
+- ["CSo21UITableViewController", "numberOfSectionsInTableView"]
+- ["CSo21UITableViewController", "prepareForSegue"]
+- !private ["CSo21UITableViewController", "print"]
+- ["CSo21UITableViewController", "reload"]
+- ["CSo21UITableViewController", "service"]
+- ["CSo21UITableViewController", "tableView"]
+- ["CSo21UITableViewController", "viewDidLoad"]
+- ["CSo21UITableViewController", ""]
+- ["PSo21UITableViewDataSource", "GummyTypeService"]
+- ["PSo21UITableViewDataSource", "delegate"]
+- ["PSo21UITableViewDataSource", "didSuccessNewTypeCreation"]
+- !private ["PSo21UITableViewDataSource", "fatalError"]
+- ["PSo21UITableViewDataSource", "init"]
+- !private ["PSo21UITableViewDataSource", "navigationController"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- ["PSo21UITableViewDataSource", "prepareForSegue"]
+- !private ["PSo21UITableViewDataSource", "print"]
+- ["PSo21UITableViewDataSource", "reload"]
+- ["PSo21UITableViewDataSource", "service"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewDidLoad"]
+- ["PSo21UITableViewDataSource", ""]
+- ["PSo19UITableViewDelegate", "GummyTypeService"]
+- ["PSo19UITableViewDelegate", "delegate"]
+- ["PSo19UITableViewDelegate", "didSuccessNewTypeCreation"]
+- !private ["PSo19UITableViewDelegate", "fatalError"]
+- ["PSo19UITableViewDelegate", "init"]
+- !private ["PSo19UITableViewDelegate", "navigationController"]
+- ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo19UITableViewDelegate", "prepareForSegue"]
+- !private ["PSo19UITableViewDelegate", "print"]
+- ["PSo19UITableViewDelegate", "reload"]
+- ["PSo19UITableViewDelegate", "service"]
+- ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewDidLoad"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["PSo19UITextFieldDelegate", "delegate"]
+- ["PSo18UITraitEnvironment", "GummyTypeService"]
+- ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
+- ["PSo18UITraitEnvironment", "didSuccessNewTypeCreation"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "navigationController"]
+- ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
+- !private ["PSo18UITraitEnvironment", "popViewControllerAnimated"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- ["PSo18UITraitEnvironment", "reload"]
+- !private ["PSo18UITraitEnvironment", "reloadData"]
+- ["PSo18UITraitEnvironment", "service"]
+- ["PSo18UITraitEnvironment", "tableView"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "textLabel"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo6UIView", "reloadData"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo6UIView", "textLabel"]
+- !private ["CSo16UIViewController", "AddNewGummyViewController"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "GummySelectTableViewControllerDelegate"]
+- ["CSo16UIViewController", "GummyType"]
+- ["CSo16UIViewController", "GummyTypeService"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "NSIndexPath"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "UITableViewCell"]
+- !private ["CSo16UIViewController", "Void"]
+- !private ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "delegate"]
+- ["CSo16UIViewController", "didSuccessNewTypeCreation"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "navigationController"]
+- ["CSo16UIViewController", "numberOfSectionsInTableView"]
+- !private ["CSo16UIViewController", "popViewControllerAnimated"]
+- ["CSo16UIViewController", "prepareForSegue"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "reload"]
+- ["CSo16UIViewController", "service"]
+- ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "count"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "reloadData"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs12_Reflectable", "text"]
+- !private ["PSs12_Reflectable", "textLabel"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "P7GummyMe21AddNewGummyVCDelegate"
+- !private "C7GummyMe25AddNewGummyViewController"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "C7GummyMe30GummySelectTableViewController"
+- "P7GummyMe38GummySelectTableViewControllerDelegate"
+- !private "C7GummyMe9GummyType"
+- "C7GummyMe16GummyTypeService"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo11NSIndexPath"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo7NSValue"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- !private "VSs12StaticString"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UILabel"
+- !private "CSo22UINavigationController"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- "CSo21UITableViewController"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- !private "PSo19UITextFieldDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/rhiramat/Desktop/GummyMe/GummyMe-Bridging-Header.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/UIImageView+WebCache.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageCompat.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageManager.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageOperation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageDownloader.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDImageCache.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PF_Twitter.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFPush.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFPurchase.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFProduct.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFInstallation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFRole.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFRelation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFQuery.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFFile.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFConfig.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFCloud.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFObject.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFUser.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFConstants.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFNullability.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFACL.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/Parse.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+interface-hash: "1e03ab0211696b93e2ae6a4e0c558b80"

@@ -1,0 +1,688 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DetailViewController"
+provides-nominal:
+- "C7GummyMe20DetailViewController"
+provides-member:
+- ["C7GummyMe20DetailViewController", ""]
+provides-dynamic-lookup:
+- "gummy"
+- "tableView"
+- "tableView"
+- "tableView"
+- "tableView"
+- "viewDidLoad"
+depends-top-level:
+- "CGFloat"
+- "NSIndexPath"
+- "Gummy"
+- !private "DetailImageCell"
+- !private "~="
+- "UITableView"
+- "DetailViewController"
+- !private "fatalError"
+- !private "StringLiteralType"
+- "UIViewController"
+- "Int"
+- "UITableViewDataSource"
+- "UITableViewDelegate"
+- !private "DetailNoteCell"
+- "UITableViewCell"
+depends-member:
+- !private ["PSs9AnyObject", "configure"]
+- !private ["PSs9AnyObject", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs9AnyObject", "fatalError"]
+- ["PSs9AnyObject", "gummy"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "numberOfSectionsInTableView"]
+- !private ["PSs9AnyObject", "row"]
+- ["PSs9AnyObject", "scrollViewDidEndDecelerating"]
+- ["PSs9AnyObject", "scrollViewDidEndDragging"]
+- ["PSs9AnyObject", "scrollViewDidEndScrollingAnimation"]
+- ["PSs9AnyObject", "scrollViewDidEndZooming"]
+- ["PSs9AnyObject", "scrollViewDidScroll"]
+- ["PSs9AnyObject", "scrollViewDidScrollToTop"]
+- ["PSs9AnyObject", "scrollViewDidZoom"]
+- ["PSs9AnyObject", "scrollViewShouldScrollToTop"]
+- ["PSs9AnyObject", "scrollViewWillBeginDecelerating"]
+- ["PSs9AnyObject", "scrollViewWillBeginDragging"]
+- ["PSs9AnyObject", "scrollViewWillBeginZooming"]
+- ["PSs9AnyObject", "scrollViewWillEndDragging"]
+- ["PSs9AnyObject", "sectionIndexTitlesForTableView"]
+- ["PSs9AnyObject", "tableView"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "viewForZoomingInScrollView"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "configure"]
+- !private ["PSs11CVarArgType", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs11CVarArgType", "fatalError"]
+- ["PSs11CVarArgType", "gummy"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "numberOfSectionsInTableView"]
+- !private ["PSs11CVarArgType", "row"]
+- ["PSs11CVarArgType", "scrollViewDidEndDecelerating"]
+- ["PSs11CVarArgType", "scrollViewDidEndDragging"]
+- ["PSs11CVarArgType", "scrollViewDidEndScrollingAnimation"]
+- ["PSs11CVarArgType", "scrollViewDidEndZooming"]
+- ["PSs11CVarArgType", "scrollViewDidScroll"]
+- ["PSs11CVarArgType", "scrollViewDidScrollToTop"]
+- ["PSs11CVarArgType", "scrollViewDidZoom"]
+- ["PSs11CVarArgType", "scrollViewShouldScrollToTop"]
+- ["PSs11CVarArgType", "scrollViewWillBeginDecelerating"]
+- ["PSs11CVarArgType", "scrollViewWillBeginDragging"]
+- ["PSs11CVarArgType", "scrollViewWillBeginZooming"]
+- ["PSs11CVarArgType", "scrollViewWillEndDragging"]
+- ["PSs11CVarArgType", "sectionIndexTitlesForTableView"]
+- ["PSs11CVarArgType", "tableView"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "viewForZoomingInScrollView"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "configure"]
+- !private ["PSs23CustomStringConvertible", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs23CustomStringConvertible", "fatalError"]
+- ["PSs23CustomStringConvertible", "gummy"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "numberOfSectionsInTableView"]
+- !private ["PSs23CustomStringConvertible", "row"]
+- ["PSs23CustomStringConvertible", "scrollViewDidEndDecelerating"]
+- ["PSs23CustomStringConvertible", "scrollViewDidEndDragging"]
+- ["PSs23CustomStringConvertible", "scrollViewDidEndScrollingAnimation"]
+- ["PSs23CustomStringConvertible", "scrollViewDidEndZooming"]
+- ["PSs23CustomStringConvertible", "scrollViewDidScroll"]
+- ["PSs23CustomStringConvertible", "scrollViewDidScrollToTop"]
+- ["PSs23CustomStringConvertible", "scrollViewDidZoom"]
+- ["PSs23CustomStringConvertible", "scrollViewShouldScrollToTop"]
+- ["PSs23CustomStringConvertible", "scrollViewWillBeginDecelerating"]
+- ["PSs23CustomStringConvertible", "scrollViewWillBeginDragging"]
+- ["PSs23CustomStringConvertible", "scrollViewWillBeginZooming"]
+- ["PSs23CustomStringConvertible", "scrollViewWillEndDragging"]
+- ["PSs23CustomStringConvertible", "sectionIndexTitlesForTableView"]
+- ["PSs23CustomStringConvertible", "tableView"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "viewForZoomingInScrollView"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C7GummyMe15DetailImageCell", "configure"]
+- !private ["C7GummyMe14DetailNoteCell", "configure"]
+- ["C7GummyMe20DetailViewController", "CGFloat"]
+- !private ["C7GummyMe20DetailViewController", "DetailImageCell"]
+- !private ["C7GummyMe20DetailViewController", "DetailNoteCell"]
+- ["C7GummyMe20DetailViewController", "Gummy"]
+- ["C7GummyMe20DetailViewController", "Int"]
+- ["C7GummyMe20DetailViewController", "NSIndexPath"]
+- ["C7GummyMe20DetailViewController", "UITableView"]
+- ["C7GummyMe20DetailViewController", "UITableViewCell"]
+- ["C7GummyMe20DetailViewController", "deinit"]
+- !private ["C7GummyMe20DetailViewController", "fatalError"]
+- ["C7GummyMe20DetailViewController", "gummy"]
+- ["C7GummyMe20DetailViewController", "init"]
+- ["C7GummyMe20DetailViewController", "numberOfSectionsInTableView"]
+- ["C7GummyMe20DetailViewController", "scrollViewDidEndDecelerating"]
+- ["C7GummyMe20DetailViewController", "scrollViewDidEndDragging"]
+- ["C7GummyMe20DetailViewController", "scrollViewDidEndScrollingAnimation"]
+- ["C7GummyMe20DetailViewController", "scrollViewDidEndZooming"]
+- ["C7GummyMe20DetailViewController", "scrollViewDidScroll"]
+- ["C7GummyMe20DetailViewController", "scrollViewDidScrollToTop"]
+- ["C7GummyMe20DetailViewController", "scrollViewDidZoom"]
+- ["C7GummyMe20DetailViewController", "scrollViewShouldScrollToTop"]
+- ["C7GummyMe20DetailViewController", "scrollViewWillBeginDecelerating"]
+- ["C7GummyMe20DetailViewController", "scrollViewWillBeginDragging"]
+- ["C7GummyMe20DetailViewController", "scrollViewWillBeginZooming"]
+- ["C7GummyMe20DetailViewController", "scrollViewWillEndDragging"]
+- ["C7GummyMe20DetailViewController", "sectionIndexTitlesForTableView"]
+- ["C7GummyMe20DetailViewController", "tableView"]
+- ["C7GummyMe20DetailViewController", "viewDidLoad"]
+- ["C7GummyMe20DetailViewController", "viewForZoomingInScrollView"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "configure"]
+- !private ["PSs9Equatable", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs9Equatable", "fatalError"]
+- ["PSs9Equatable", "gummy"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "numberOfSectionsInTableView"]
+- !private ["PSs9Equatable", "row"]
+- ["PSs9Equatable", "scrollViewDidEndDecelerating"]
+- ["PSs9Equatable", "scrollViewDidEndDragging"]
+- ["PSs9Equatable", "scrollViewDidEndScrollingAnimation"]
+- ["PSs9Equatable", "scrollViewDidEndZooming"]
+- ["PSs9Equatable", "scrollViewDidScroll"]
+- ["PSs9Equatable", "scrollViewDidScrollToTop"]
+- ["PSs9Equatable", "scrollViewDidZoom"]
+- ["PSs9Equatable", "scrollViewShouldScrollToTop"]
+- ["PSs9Equatable", "scrollViewWillBeginDecelerating"]
+- ["PSs9Equatable", "scrollViewWillBeginDragging"]
+- ["PSs9Equatable", "scrollViewWillBeginZooming"]
+- ["PSs9Equatable", "scrollViewWillEndDragging"]
+- ["PSs9Equatable", "sectionIndexTitlesForTableView"]
+- ["PSs9Equatable", "tableView"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "viewForZoomingInScrollView"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "configure"]
+- !private ["PSs8Hashable", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs8Hashable", "fatalError"]
+- ["PSs8Hashable", "gummy"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "numberOfSectionsInTableView"]
+- !private ["PSs8Hashable", "row"]
+- ["PSs8Hashable", "scrollViewDidEndDecelerating"]
+- ["PSs8Hashable", "scrollViewDidEndDragging"]
+- ["PSs8Hashable", "scrollViewDidEndScrollingAnimation"]
+- ["PSs8Hashable", "scrollViewDidEndZooming"]
+- ["PSs8Hashable", "scrollViewDidScroll"]
+- ["PSs8Hashable", "scrollViewDidScrollToTop"]
+- ["PSs8Hashable", "scrollViewDidZoom"]
+- ["PSs8Hashable", "scrollViewShouldScrollToTop"]
+- ["PSs8Hashable", "scrollViewWillBeginDecelerating"]
+- ["PSs8Hashable", "scrollViewWillBeginDragging"]
+- ["PSs8Hashable", "scrollViewWillBeginZooming"]
+- ["PSs8Hashable", "scrollViewWillEndDragging"]
+- ["PSs8Hashable", "sectionIndexTitlesForTableView"]
+- ["PSs8Hashable", "tableView"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "viewForZoomingInScrollView"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSo8NSCoding", "configure"]
+- !private ["PSo8NSCoding", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "gummy"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "numberOfSectionsInTableView"]
+- !private ["PSo8NSCoding", "row"]
+- ["PSo8NSCoding", "scrollViewDidEndDecelerating"]
+- ["PSo8NSCoding", "scrollViewDidEndDragging"]
+- ["PSo8NSCoding", "scrollViewDidEndScrollingAnimation"]
+- ["PSo8NSCoding", "scrollViewDidEndZooming"]
+- ["PSo8NSCoding", "scrollViewDidScroll"]
+- ["PSo8NSCoding", "scrollViewDidScrollToTop"]
+- ["PSo8NSCoding", "scrollViewDidZoom"]
+- ["PSo8NSCoding", "scrollViewShouldScrollToTop"]
+- ["PSo8NSCoding", "scrollViewWillBeginDecelerating"]
+- ["PSo8NSCoding", "scrollViewWillBeginDragging"]
+- ["PSo8NSCoding", "scrollViewWillBeginZooming"]
+- ["PSo8NSCoding", "scrollViewWillEndDragging"]
+- ["PSo8NSCoding", "sectionIndexTitlesForTableView"]
+- ["PSo8NSCoding", "tableView"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewForZoomingInScrollView"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "row"]
+- !private ["PSo26NSExtensionRequestHandling", "fatalError"]
+- ["PSo26NSExtensionRequestHandling", "gummy"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "numberOfSectionsInTableView"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDecelerating"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDragging"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewDidEndScrollingAnimation"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewDidEndZooming"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewDidScroll"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewDidScrollToTop"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewDidZoom"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewShouldScrollToTop"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewWillBeginDecelerating"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewWillBeginDragging"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewWillBeginZooming"]
+- ["PSo26NSExtensionRequestHandling", "scrollViewWillEndDragging"]
+- ["PSo26NSExtensionRequestHandling", "sectionIndexTitlesForTableView"]
+- ["PSo26NSExtensionRequestHandling", "tableView"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewForZoomingInScrollView"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo11NSIndexPath", "row"]
+- !private ["CSo8NSNumber", "deinit"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "DetailImageCell"]
+- !private ["CSo8NSObject", "DetailNoteCell"]
+- ["CSo8NSObject", "Gummy"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "UITableView"]
+- ["CSo8NSObject", "UITableViewCell"]
+- !private ["CSo8NSObject", "configure"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "gummy"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "numberOfSectionsInTableView"]
+- !private ["CSo8NSObject", "row"]
+- ["CSo8NSObject", "scrollViewDidEndDecelerating"]
+- ["CSo8NSObject", "scrollViewDidEndDragging"]
+- ["CSo8NSObject", "scrollViewDidEndScrollingAnimation"]
+- ["CSo8NSObject", "scrollViewDidEndZooming"]
+- ["CSo8NSObject", "scrollViewDidScroll"]
+- ["CSo8NSObject", "scrollViewDidScrollToTop"]
+- ["CSo8NSObject", "scrollViewDidZoom"]
+- ["CSo8NSObject", "scrollViewShouldScrollToTop"]
+- ["CSo8NSObject", "scrollViewWillBeginDecelerating"]
+- ["CSo8NSObject", "scrollViewWillBeginDragging"]
+- ["CSo8NSObject", "scrollViewWillBeginZooming"]
+- ["CSo8NSObject", "scrollViewWillEndDragging"]
+- ["CSo8NSObject", "sectionIndexTitlesForTableView"]
+- ["CSo8NSObject", "tableView"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewForZoomingInScrollView"]
+- !private ["PSo16NSObjectProtocol", "configure"]
+- !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "gummy"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "numberOfSectionsInTableView"]
+- !private ["PSo16NSObjectProtocol", "row"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndScrollingAnimation"]
+- ["PSo16NSObjectProtocol", "scrollViewDidEndZooming"]
+- ["PSo16NSObjectProtocol", "scrollViewDidScroll"]
+- ["PSo16NSObjectProtocol", "scrollViewDidScrollToTop"]
+- ["PSo16NSObjectProtocol", "scrollViewDidZoom"]
+- ["PSo16NSObjectProtocol", "scrollViewShouldScrollToTop"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginDecelerating"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginDragging"]
+- ["PSo16NSObjectProtocol", "scrollViewWillBeginZooming"]
+- ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
+- ["PSo16NSObjectProtocol", "sectionIndexTitlesForTableView"]
+- ["PSo16NSObjectProtocol", "tableView"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewForZoomingInScrollView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "row"]
+- !private ["CSo7NSValue", "deinit"]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "deinit"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "configure"]
+- !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo12UIAppearance", "configure"]
+- !private ["PSo12UIAppearance", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "configure"]
+- !private ["PSo21UIAppearanceContainer", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo21UIAppearanceContainer", "fatalError"]
+- ["PSo21UIAppearanceContainer", "gummy"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "numberOfSectionsInTableView"]
+- ["PSo21UIAppearanceContainer", "scrollViewDidEndDecelerating"]
+- ["PSo21UIAppearanceContainer", "scrollViewDidEndDragging"]
+- ["PSo21UIAppearanceContainer", "scrollViewDidEndScrollingAnimation"]
+- ["PSo21UIAppearanceContainer", "scrollViewDidEndZooming"]
+- ["PSo21UIAppearanceContainer", "scrollViewDidScroll"]
+- ["PSo21UIAppearanceContainer", "scrollViewDidScrollToTop"]
+- ["PSo21UIAppearanceContainer", "scrollViewDidZoom"]
+- ["PSo21UIAppearanceContainer", "scrollViewShouldScrollToTop"]
+- ["PSo21UIAppearanceContainer", "scrollViewWillBeginDecelerating"]
+- ["PSo21UIAppearanceContainer", "scrollViewWillBeginDragging"]
+- ["PSo21UIAppearanceContainer", "scrollViewWillBeginZooming"]
+- ["PSo21UIAppearanceContainer", "scrollViewWillEndDragging"]
+- ["PSo21UIAppearanceContainer", "sectionIndexTitlesForTableView"]
+- ["PSo21UIAppearanceContainer", "tableView"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewForZoomingInScrollView"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "fatalError"]
+- ["PSo18UIContentContainer", "gummy"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "numberOfSectionsInTableView"]
+- ["PSo18UIContentContainer", "scrollViewDidEndDecelerating"]
+- ["PSo18UIContentContainer", "scrollViewDidEndDragging"]
+- ["PSo18UIContentContainer", "scrollViewDidEndScrollingAnimation"]
+- ["PSo18UIContentContainer", "scrollViewDidEndZooming"]
+- ["PSo18UIContentContainer", "scrollViewDidScroll"]
+- ["PSo18UIContentContainer", "scrollViewDidScrollToTop"]
+- ["PSo18UIContentContainer", "scrollViewDidZoom"]
+- ["PSo18UIContentContainer", "scrollViewShouldScrollToTop"]
+- ["PSo18UIContentContainer", "scrollViewWillBeginDecelerating"]
+- ["PSo18UIContentContainer", "scrollViewWillBeginDragging"]
+- ["PSo18UIContentContainer", "scrollViewWillBeginZooming"]
+- ["PSo18UIContentContainer", "scrollViewWillEndDragging"]
+- ["PSo18UIContentContainer", "sectionIndexTitlesForTableView"]
+- ["PSo18UIContentContainer", "tableView"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewForZoomingInScrollView"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "configure"]
+- !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo13UIDynamicItem", "configure"]
+- !private ["PSo13UIDynamicItem", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo27UIGestureRecognizerDelegate", "configure"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "DetailImageCell"]
+- !private ["CSo11UIResponder", "DetailNoteCell"]
+- ["CSo11UIResponder", "Gummy"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSIndexPath"]
+- ["CSo11UIResponder", "UITableView"]
+- ["CSo11UIResponder", "UITableViewCell"]
+- !private ["CSo11UIResponder", "configure"]
+- !private ["CSo11UIResponder", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo11UIResponder", "fatalError"]
+- ["CSo11UIResponder", "gummy"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "numberOfSectionsInTableView"]
+- ["CSo11UIResponder", "scrollViewDidEndDecelerating"]
+- ["CSo11UIResponder", "scrollViewDidEndDragging"]
+- ["CSo11UIResponder", "scrollViewDidEndScrollingAnimation"]
+- ["CSo11UIResponder", "scrollViewDidEndZooming"]
+- ["CSo11UIResponder", "scrollViewDidScroll"]
+- ["CSo11UIResponder", "scrollViewDidScrollToTop"]
+- ["CSo11UIResponder", "scrollViewDidZoom"]
+- ["CSo11UIResponder", "scrollViewShouldScrollToTop"]
+- ["CSo11UIResponder", "scrollViewWillBeginDecelerating"]
+- ["CSo11UIResponder", "scrollViewWillBeginDragging"]
+- ["CSo11UIResponder", "scrollViewWillBeginZooming"]
+- ["CSo11UIResponder", "scrollViewWillEndDragging"]
+- ["CSo11UIResponder", "sectionIndexTitlesForTableView"]
+- ["CSo11UIResponder", "tableView"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewForZoomingInScrollView"]
+- !private ["CSo12UIScrollView", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo20UIScrollViewDelegate", "fatalError"]
+- !private ["PSo20UIScrollViewDelegate", "gummy"]
+- ["PSo20UIScrollViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidScroll"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo20UIScrollViewDelegate", "scrollViewDidZoom"]
+- ["PSo20UIScrollViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo20UIScrollViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo20UIScrollViewDelegate", "sectionIndexTitlesForTableView"]
+- ["PSo20UIScrollViewDelegate", "tableView"]
+- ["PSo20UIScrollViewDelegate", "viewForZoomingInScrollView"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["PSo16UIStateRestoring", "fatalError"]
+- ["PSo16UIStateRestoring", "gummy"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "numberOfSectionsInTableView"]
+- ["PSo16UIStateRestoring", "scrollViewDidEndDecelerating"]
+- ["PSo16UIStateRestoring", "scrollViewDidEndDragging"]
+- ["PSo16UIStateRestoring", "scrollViewDidEndScrollingAnimation"]
+- ["PSo16UIStateRestoring", "scrollViewDidEndZooming"]
+- ["PSo16UIStateRestoring", "scrollViewDidScroll"]
+- ["PSo16UIStateRestoring", "scrollViewDidScrollToTop"]
+- ["PSo16UIStateRestoring", "scrollViewDidZoom"]
+- ["PSo16UIStateRestoring", "scrollViewShouldScrollToTop"]
+- ["PSo16UIStateRestoring", "scrollViewWillBeginDecelerating"]
+- ["PSo16UIStateRestoring", "scrollViewWillBeginDragging"]
+- ["PSo16UIStateRestoring", "scrollViewWillBeginZooming"]
+- ["PSo16UIStateRestoring", "scrollViewWillEndDragging"]
+- ["PSo16UIStateRestoring", "sectionIndexTitlesForTableView"]
+- ["PSo16UIStateRestoring", "tableView"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewForZoomingInScrollView"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITableView", "dequeueReusableCellWithIdentifier"]
+- !private ["CSo15UITableViewCell", "configure"]
+- !private ["PSo21UITableViewDataSource", "fatalError"]
+- !private ["PSo21UITableViewDataSource", "gummy"]
+- ["PSo21UITableViewDataSource", "numberOfSectionsInTableView"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndDecelerating"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndDragging"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndScrollingAnimation"]
+- ["PSo21UITableViewDataSource", "scrollViewDidEndZooming"]
+- ["PSo21UITableViewDataSource", "scrollViewDidScroll"]
+- ["PSo21UITableViewDataSource", "scrollViewDidScrollToTop"]
+- ["PSo21UITableViewDataSource", "scrollViewDidZoom"]
+- ["PSo21UITableViewDataSource", "scrollViewShouldScrollToTop"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginDecelerating"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginDragging"]
+- ["PSo21UITableViewDataSource", "scrollViewWillBeginZooming"]
+- ["PSo21UITableViewDataSource", "scrollViewWillEndDragging"]
+- ["PSo21UITableViewDataSource", "sectionIndexTitlesForTableView"]
+- ["PSo21UITableViewDataSource", "tableView"]
+- ["PSo21UITableViewDataSource", "viewForZoomingInScrollView"]
+- ["PSo21UITableViewDataSource", ""]
+- !private ["PSo19UITableViewDelegate", "fatalError"]
+- !private ["PSo19UITableViewDelegate", "gummy"]
+- ["PSo19UITableViewDelegate", "numberOfSectionsInTableView"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo19UITableViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo19UITableViewDelegate", "scrollViewDidScroll"]
+- ["PSo19UITableViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo19UITableViewDelegate", "scrollViewDidZoom"]
+- ["PSo19UITableViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo19UITableViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo19UITableViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo19UITableViewDelegate", "sectionIndexTitlesForTableView"]
+- ["PSo19UITableViewDelegate", "tableView"]
+- ["PSo19UITableViewDelegate", "viewForZoomingInScrollView"]
+- ["PSo19UITableViewDelegate", ""]
+- !private ["PSo18UITraitEnvironment", "configure"]
+- !private ["PSo18UITraitEnvironment", "dequeueReusableCellWithIdentifier"]
+- !private ["PSo18UITraitEnvironment", "fatalError"]
+- ["PSo18UITraitEnvironment", "gummy"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "numberOfSectionsInTableView"]
+- ["PSo18UITraitEnvironment", "scrollViewDidEndDecelerating"]
+- ["PSo18UITraitEnvironment", "scrollViewDidEndDragging"]
+- ["PSo18UITraitEnvironment", "scrollViewDidEndScrollingAnimation"]
+- ["PSo18UITraitEnvironment", "scrollViewDidEndZooming"]
+- ["PSo18UITraitEnvironment", "scrollViewDidScroll"]
+- ["PSo18UITraitEnvironment", "scrollViewDidScrollToTop"]
+- ["PSo18UITraitEnvironment", "scrollViewDidZoom"]
+- ["PSo18UITraitEnvironment", "scrollViewShouldScrollToTop"]
+- ["PSo18UITraitEnvironment", "scrollViewWillBeginDecelerating"]
+- ["PSo18UITraitEnvironment", "scrollViewWillBeginDragging"]
+- ["PSo18UITraitEnvironment", "scrollViewWillBeginZooming"]
+- ["PSo18UITraitEnvironment", "scrollViewWillEndDragging"]
+- ["PSo18UITraitEnvironment", "sectionIndexTitlesForTableView"]
+- ["PSo18UITraitEnvironment", "tableView"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewForZoomingInScrollView"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "configure"]
+- !private ["CSo6UIView", "dequeueReusableCellWithIdentifier"]
+- ["CSo16UIViewController", "CGFloat"]
+- !private ["CSo16UIViewController", "DetailImageCell"]
+- !private ["CSo16UIViewController", "DetailNoteCell"]
+- ["CSo16UIViewController", "Gummy"]
+- ["CSo16UIViewController", "Int"]
+- ["CSo16UIViewController", "NSIndexPath"]
+- ["CSo16UIViewController", "UITableView"]
+- ["CSo16UIViewController", "UITableViewCell"]
+- !private ["CSo16UIViewController", "fatalError"]
+- ["CSo16UIViewController", "gummy"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "numberOfSectionsInTableView"]
+- ["CSo16UIViewController", "scrollViewDidEndDecelerating"]
+- ["CSo16UIViewController", "scrollViewDidEndDragging"]
+- ["CSo16UIViewController", "scrollViewDidEndScrollingAnimation"]
+- ["CSo16UIViewController", "scrollViewDidEndZooming"]
+- ["CSo16UIViewController", "scrollViewDidScroll"]
+- ["CSo16UIViewController", "scrollViewDidScrollToTop"]
+- ["CSo16UIViewController", "scrollViewDidZoom"]
+- ["CSo16UIViewController", "scrollViewShouldScrollToTop"]
+- ["CSo16UIViewController", "scrollViewWillBeginDecelerating"]
+- ["CSo16UIViewController", "scrollViewWillBeginDragging"]
+- ["CSo16UIViewController", "scrollViewWillBeginZooming"]
+- ["CSo16UIViewController", "scrollViewWillEndDragging"]
+- ["CSo16UIViewController", "sectionIndexTitlesForTableView"]
+- ["CSo16UIViewController", "tableView"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewForZoomingInScrollView"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "configure"]
+- !private ["PSs12_Reflectable", "dequeueReusableCellWithIdentifier"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- !private "C7GummyMe15DetailImageCell"
+- !private "C7GummyMe14DetailNoteCell"
+- "C7GummyMe20DetailViewController"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "CSo11NSIndexPath"
+- !private "CSo8NSNumber"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo7NSValue"
+- !private "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs12StaticString"
+- !private "PSs10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITableView"
+- !private "CSo15UITableViewCell"
+- "PSo21UITableViewDataSource"
+- "PSo19UITableViewDelegate"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/rhiramat/Desktop/GummyMe/GummyMe-Bridging-Header.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/UIImageView+WebCache.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageCompat.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageManager.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageOperation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageDownloader.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDImageCache.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PF_Twitter.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFPush.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFPurchase.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFProduct.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFInstallation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFRole.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFRelation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFQuery.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFFile.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFConfig.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFCloud.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFObject.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFUser.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFConstants.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFNullability.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFACL.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/Parse.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+interface-hash: "864ad1d275fd6c11c438224e367b1ae6"

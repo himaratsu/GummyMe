@@ -1,0 +1,182 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ProfileService"
+provides-nominal:
+- "C7GummyMe14ProfileService"
+provides-member:
+- ["C7GummyMe14ProfileService", ""]
+provides-dynamic-lookup:
+- "postGummyType"
+- "gummyCount"
+depends-top-level:
+- "NSObject"
+- !private "PFQuery"
+- "String"
+- !private "StringLiteralType"
+- "ProfileService"
+- "Int32"
+- "Void"
+- !private "PFObject"
+- "NSError"
+- "Bool"
+depends-member:
+- !private ["PSs9AnyObject", "PFObject"]
+- !private ["PSs9AnyObject", "PFQuery"]
+- !private ["PSs9AnyObject", "countObjectsInBackgroundWithBlock"]
+- ["PSs9AnyObject", "gummyCount"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "postGummyType"]
+- ["PSs9AnyObject", "requestCountMyGummy"]
+- !private ["PSs9AnyObject", "saveInBackgroundWithBlock"]
+- !private ["PSs9AnyObject", "subscript"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "PFObject"]
+- !private ["PSs11CVarArgType", "PFQuery"]
+- !private ["PSs11CVarArgType", "countObjectsInBackgroundWithBlock"]
+- ["PSs11CVarArgType", "gummyCount"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "postGummyType"]
+- ["PSs11CVarArgType", "requestCountMyGummy"]
+- !private ["PSs11CVarArgType", "saveInBackgroundWithBlock"]
+- !private ["PSs11CVarArgType", "subscript"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "PFObject"]
+- !private ["PSs23CustomStringConvertible", "PFQuery"]
+- !private ["PSs23CustomStringConvertible", "countObjectsInBackgroundWithBlock"]
+- ["PSs23CustomStringConvertible", "gummyCount"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "postGummyType"]
+- ["PSs23CustomStringConvertible", "requestCountMyGummy"]
+- !private ["PSs23CustomStringConvertible", "saveInBackgroundWithBlock"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "PFObject"]
+- !private ["PSs9Equatable", "PFQuery"]
+- !private ["PSs9Equatable", "countObjectsInBackgroundWithBlock"]
+- ["PSs9Equatable", "gummyCount"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "postGummyType"]
+- ["PSs9Equatable", "requestCountMyGummy"]
+- !private ["PSs9Equatable", "saveInBackgroundWithBlock"]
+- !private ["PSs9Equatable", "subscript"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "PFObject"]
+- !private ["PSs8Hashable", "PFQuery"]
+- !private ["PSs8Hashable", "countObjectsInBackgroundWithBlock"]
+- ["PSs8Hashable", "gummyCount"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "postGummyType"]
+- ["PSs8Hashable", "requestCountMyGummy"]
+- !private ["PSs8Hashable", "saveInBackgroundWithBlock"]
+- !private ["PSs8Hashable", "subscript"]
+- ["PSs8Hashable", ""]
+- !private ["PSo9NSCopying", "countObjectsInBackgroundWithBlock"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "Int32"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "PFObject"]
+- !private ["CSo8NSObject", "PFQuery"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "countObjectsInBackgroundWithBlock"]
+- ["CSo8NSObject", "gummyCount"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "postGummyType"]
+- ["CSo8NSObject", "requestCountMyGummy"]
+- !private ["CSo8NSObject", "saveInBackgroundWithBlock"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "PFObject"]
+- !private ["PSo16NSObjectProtocol", "PFQuery"]
+- !private ["PSo16NSObjectProtocol", "countObjectsInBackgroundWithBlock"]
+- ["PSo16NSObjectProtocol", "gummyCount"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "postGummyType"]
+- ["PSo16NSObjectProtocol", "requestCountMyGummy"]
+- !private ["PSo16NSObjectProtocol", "saveInBackgroundWithBlock"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["CSo8PFObject", "init"]
+- !private ["CSo8PFObject", "saveInBackgroundWithBlock"]
+- !private ["CSo8PFObject", "subscript"]
+- !private ["CSo7PFQuery", "countObjectsInBackgroundWithBlock"]
+- !private ["CSo7PFQuery", "init"]
+- ["C7GummyMe14ProfileService", "Bool"]
+- ["C7GummyMe14ProfileService", "Int32"]
+- ["C7GummyMe14ProfileService", "NSError"]
+- !private ["C7GummyMe14ProfileService", "PFObject"]
+- !private ["C7GummyMe14ProfileService", "PFQuery"]
+- ["C7GummyMe14ProfileService", "String"]
+- ["C7GummyMe14ProfileService", "Void"]
+- ["C7GummyMe14ProfileService", "deinit"]
+- ["C7GummyMe14ProfileService", "gummyCount"]
+- ["C7GummyMe14ProfileService", "init"]
+- ["C7GummyMe14ProfileService", "postGummyType"]
+- ["C7GummyMe14ProfileService", "requestCountMyGummy"]
+- !private ["SS", "deinit"]
+- !private ["PSs12_Reflectable", "Some"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "CSo8PFObject"
+- !private "CSo7PFQuery"
+- "C7GummyMe14ProfileService"
+- !private "SS"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/rhiramat/Desktop/GummyMe/GummyMe-Bridging-Header.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/UIImageView+WebCache.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageCompat.h"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageManager.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageOperation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDWebImageDownloader.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Headers/Public/SDWebImage/SDImageCache.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PF_Twitter.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFTwitterUtils.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFPush.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFPurchase.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFProduct.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFInstallation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFRole.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFRelation.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFQuery.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFFile.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFConfig.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFCloud.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFObject.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFUser.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFConstants.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFNullability.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/PFACL.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Headers/Parse.h"
+- "/Users/rhiramat/Desktop/GummyMe/Pods/Parse/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+interface-hash: "01e15b9fd84f2483fb10221b24fbea0a"
