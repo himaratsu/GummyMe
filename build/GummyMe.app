@@ -1,1 +1,0 @@
-/Users/rhiramat/Library/Developer/Xcode/DerivedData/GummyMe-awrmhmwciawncbcwkmxnwmuqfpbg/Build/Intermediates/ArchiveIntermediates/GummyMe/InstallationBuildProductsLocation/Applications/GummyMe.app
